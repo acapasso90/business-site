@@ -1,8 +1,25 @@
 img {
-max-height: 1200px;}
+max-height: 1200px;
+max-width: 100%;}
 
 body {background: url('../media/landscape.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     max-height: 100%;
-  background-position-y: 100%;}
+    max-width: 100%;
+  background-position-y: 100%;
+color: #2f3743;}
+h4 p {padding-top: 100px;
+margin-left: -200px;}
+
+.basedIn {margin-left: -200px;}
+  header {
+    position: fixed;
+    text-align: center;
+  padding: 7px 0 7px 7px;
+margin: 25px 400px 0 -240px;}
+a, a:active, a:visited {color: #4e5669}
+
+.col-3:hover {background-color: #455062;}
+.col-3:hover a {
+color: #b9b8c8; }
