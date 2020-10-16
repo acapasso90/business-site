@@ -18,8 +18,8 @@ margin-left: -200px;}
     text-align: center;
   padding: 7px 0 7px 7px;
 margin: 25px 400px 0 -240px;}
-a, a:active, a:visited {color: #4e5669}
+a, a:active, a:visited {color: #6a7790}
 
-.col-3:hover {background-color: #455062;}
 .col-3:hover a {
-color: #b9b8c8; }
+color: #17103c; 
+cursor: default;}
