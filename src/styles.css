@@ -8,14 +8,17 @@ body {background: url('../media/landscape.jpg');
     height: 100%;
     width: 100%;
   background-position-y: 100%;
-color: #2f3743;}
+color: #232a63;}
 
 html{
   width:100%;
   height:100%;
 }
 
-h4 p {padding-top: 100px;}
+h4 {padding-left: 80px;}
+h4 p {padding-top: 100px;
+  font-family: 'Crimson Text', serif;
+}
 
   header {
     position: fixed;
@@ -23,19 +26,33 @@ h4 p {padding-top: 100px;}
     height: 100%;
     width: 30%;
   padding: 17px 0 7px 7px;
-margin-left: 650px;}
+margin-left: 650px;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;}
 
-footer {position: fixed;
-  margin-left: 360px;
-  width: 100%;
+footer {position: absolute;
+  padding-left: 1060px;
+  bottom: 0;
+  width: 50%;
 text-align: center;
-padding-top: 400px;
+white-space: nowrap;
 }
 a, a:active, a:visited {color: #6a7790}
 
 
 a:hover {
 color: #17103c; 
-cursor: default;}
+cursor: default;
+text-decoration: none;}
 
-.basedIn {font-size: 19px;}
+.basedIn {font-size: 18px;
+  font-family: 'Roboto', sans-serif;}
+
+.name {font-size: 30px;
+color: #465163;}
+
+.container {margin-left: 0px !important;}
+
+.monoIcon img {max-width: 55px;
+margin-left: 80px;
+padding-top: 10px;}
