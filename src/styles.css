@@ -20,13 +20,22 @@ h4 p {padding-top: 100px;}
   header {
     position: fixed;
     text-align: left;
-    height:100%;
+    height: 100%;
     width: 30%;
   padding: 17px 0 7px 7px;
-margin-left: 700px;}
+margin-left: 650px;}
+
+footer {position: fixed;
+  margin-left: 360px;
+  width: 100%;
+text-align: center;
+padding-top: 400px;
+}
 a, a:active, a:visited {color: #6a7790}
 
 
-.col-3:hover a {
+a:hover {
 color: #17103c; 
 cursor: default;}
+
+.basedIn {font-size: 19px;}
