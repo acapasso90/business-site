@@ -41,11 +41,15 @@ white-space: nowrap;
 
 a, a:active, a:visited {color: #6a7790}
 
-
 a:hover {
 color: #17103c; 
 cursor: default;
 text-decoration: none;}
+
+hr {position: relative;
+right: 390px;
+width: 70%;
+position: fixed;}
 
 .basedIn {font-size: 18px;
   font-family: 'Roboto', sans-serif;}
@@ -55,7 +59,8 @@ color: #465163;}
 
 .container {margin-left: 0px !important;}
 
-.monoIcon img {max-width: 55px;
+.monoIcon img {
+  max-width: 55px;
 margin-left: 80px;
 padding-top: 10px;}
 
