@@ -31,8 +31,8 @@ margin-left: 650px;
 font-size: 18px;
 font-family: 'Roboto', sans-serif;}
 
-footer {position: absolute;
-  padding-left: 1060px;
+footer {position: fixed;
+  padding-left: 1268px;
   bottom: 0;
   width: 50%;
 text-align: center;
@@ -57,26 +57,28 @@ position: fixed;}
 .name {font-size: 30px;
 color: #465163;}
 
-.container {margin-left: 0px !important;}
-
-.monoIcon img {
-  max-width: 55px;
-margin-left: 80px;
-padding-top: 10px;}
 
 .aboutMe p {position: relative;
-  bottom: 50px;
+  top: 70px;
+  margin-left: 50px;
   max-width: 40%;
   height: 100%;
-  margin-left: 100px;
 text-align: left;}
 
-.aboutMePhoto img {   
-position: relative;
-bottom: 350px;
+.aboutMePhoto img {position: relative;
+  bottom: 150px;
+margin-left: 950px;
 border-radius: 50%;
-max-width: 300px;
-max-height: 300px;
+max-width: 325px;
+max-height: 325px;
 filter: grayscale(25%);
-margin-left: 800px;
+
 }
+
+.navbarLinks {margin-left: 500px;
+width: 100%;
+height: 100%;}
+
+.col-3 {padding-right: 35px;}
+
+.monogramLogo {margin-left: 40px;}
