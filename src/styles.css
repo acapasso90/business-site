@@ -30,21 +30,22 @@ text-align: center;
 white-space: nowrap;
 }
 
-a, a:active, a:visited {color: #6a7790;
+a, a:visited {color: #6a7790;
   transition: all 100ms ease-in-out;}
 
 a:hover {
 color: #17103c; 
+cursor: default;
+  text-decoration: none;
 }
 
 .weatherAppPic {transition: all 100ms ease-in-out;
 border-radius: 4px;}
 .weatherAppPic:hover {filter: grayscale(100%);
   opacity: 0.2;
+  cursor: pointer;
 }
 
-.navLink:hover, .footerLink:hover, .iconLink:hover {cursor: default;
-  text-decoration: none;}
 
 
 .basedIn {font-size: 22px;
