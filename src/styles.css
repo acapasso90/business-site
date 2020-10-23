@@ -89,3 +89,15 @@ height: 100%;}
   text-align: center;
   border-radius: 30%;
 }
+
+.inputs {max-width: 50%;
+margin: 35px 0 0 155px;}
+
+.contactHeader {padding: 135px 0 0 155px;}
+
+.submitButton {background-color: #E1DEE5;
+margin: 10px 0 0 730px;
+border-radius: 10%;
+padding: 6px 12px;
+color: #6a7790;
+border: 1px solid #ffffff;}
