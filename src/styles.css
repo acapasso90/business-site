@@ -62,7 +62,7 @@ padding-left: 780px;}
 padding-left: 850px;}
 
 .aboutMe p {
-  max-width: 40%;
+  max-width: 50%;
   height: 100%;
   padding: 180px 0 0 220px;
 text-align: left;
@@ -109,3 +109,15 @@ right: 650px}
 .inputs {
 max-width: 50%;
 margin: 110px 0 0 205px;}
+
+.active:hover {text-decoration: none;
+  cursor: default;
+  color: #6a7790;}
+
+  .active {color: #6a7790;
+      cursor: default;
+  text-decoration: none;}
+
+  .active:visited {color: #6a7790;
+      cursor: default;
+  text-decoration: none;}
