@@ -32,7 +32,8 @@ white-space: nowrap;
 }
 
 a, a:visited {color: #6a7790;
-  transition: all 100ms ease-in-out;}
+  transition: all 100ms ease-in-out;
+}
 
 a:hover {
 color: #17103c; 
@@ -51,12 +52,14 @@ border-radius: 4px;}
 .basedIn {font-size: 28px;
   font-family: 'Roboto', sans-serif;
 padding-left: 595px;
-color: #1e1949;}
+margin: 0;
+color: #3a4658;}
 
 .name {font-size: 2.5rem;
-color: #465163;
+color:#1e1949;
 font-family: 'Crimson Text', serif;
-padding-left: 780px;}
+padding-left: 780px;
+margin: 0;}
 
 .contactHeader h1 {font-family: 'Crimson Text', serif;
 padding-left: 850px;}
@@ -81,7 +84,8 @@ border: 4px solid #B1B0C0;
 
 .navbarLinks {margin-left: 500px;
 width: 100%;
-height: 100%;}
+height: 100%;
+font-size: 22px;}
 
 .col-3 {padding-right: 35px;}
 
@@ -112,12 +116,12 @@ margin: 110px 0 0 205px;}
 
 .active:hover {text-decoration: none;
   cursor: default;
-  color: #6a7790;}
+  color: #8c9ebe;}
 
-  .active {color: #6a7790;
+  .active {color: #8c9ebe;
       cursor: default;
   text-decoration: none;}
 
-  .active:visited {color: #6a7790;
+  .active:visited {color: #8c9ebe;
       cursor: default;
   text-decoration: none;}
