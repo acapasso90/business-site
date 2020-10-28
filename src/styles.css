@@ -5,6 +5,7 @@ max-width: 100%;}
 body {background: url('../media/landscape.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #F1F1F1;
     height: 100%;
     width: 100%;
   background-position-y: 85%;
@@ -27,6 +28,7 @@ footer {position: fixed;
   padding-left: 1268px;
   bottom: 0;
   width: 50%;
+  font-size: 18px;
 text-align: center;
 white-space: nowrap;
 }
