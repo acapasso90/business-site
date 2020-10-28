@@ -49,18 +49,18 @@ border-radius: 4px;}
 }
 
 
-.basedIn {font-size: 28px;
+.basedIn {font-size: 32px;
   font-family: 'Roboto', sans-serif;
 padding-left: 595px;
-text-shadow: 2px 2px 2px #A4A3B4;
+text-shadow: 2px 2px 5px #A4A3B4;
 color: #3a4658;}
 
-.name {font-size: 2.5rem;
+.name {font-size: 48px;
 color:#1e1949;
 font-family: 'Crimson Text', serif;
 padding-left: 780px;
 letter-spacing: 13px;
-text-shadow: 2px 2px 5px #9395AA;
+text-shadow: 5px 3px 5px #9395AA;
 }
 
 .contactHeader h1 {font-family: 'Crimson Text', serif;
@@ -100,7 +100,7 @@ font-size: 22px;}
 
 
 .submitButton {background-color: #CDCBD8;
-margin: 10px 0 0 660px;
+margin: 10px 0 0 805px;
 border-radius: 8px;
 padding: 6px 12px;
 color: #434E60;
@@ -111,12 +111,15 @@ transition: all 100ms ease-in-out;}
 
 .submitButton:hover {background-color: #9B9EAD;
 color: #364152}
+
 .contactHeader {position: relative;
 top: 90px;
-right: 840px}
+right: 650px}
+
 .inputs {
-max-width: 70%;
-margin-top: 110px;}
+  max-width: 70%;
+margin-top: 110px;
+padding-left: 250px;}
 
 .active:hover {text-decoration: none;
   cursor: default;
@@ -134,12 +137,13 @@ margin-top: 110px;}
 
   .right {float: right;}
 
-  .contactLinks {margin-top: 25px;
+  .contactLinks {margin-top: 10px;
   padding: 15px 25px;
   position: fixed;
-right: 1480px;}
+left: 850px;}
 
   .list-group-item:hover {cursor: pointer;
     color: #17103c; }
 
-    .list-group-item:active, .list-group-item {color: #6a7790;}
+    .list-group-item:active, .list-group-item {color: #6a7790;
+    text-align: center;}
