@@ -52,34 +52,35 @@ border-radius: 4px;}
 .basedIn {font-size: 28px;
   font-family: 'Roboto', sans-serif;
 padding-left: 595px;
-margin: 0;
+text-shadow: 2px 2px 2px #A4A3B4;
 color: #3a4658;}
 
 .name {font-size: 2.5rem;
 color:#1e1949;
 font-family: 'Crimson Text', serif;
 padding-left: 780px;
-margin: 0;}
+letter-spacing: 13px;
+text-shadow: 2px 2px 5px #9395AA;
+}
 
 .contactHeader h1 {font-family: 'Crimson Text', serif;
 padding-left: 850px;}
 
 .aboutMe p {
-  max-width: 50%;
+  max-width: 800px;
   height: 100%;
-  padding: 180px 0 0 220px;
+  padding: 180px 0 0 250px;
 text-align: left;
 font-family: 'Roboto', sans-serif;
 font-size: 22px;}
 
-.aboutMePhoto img { position: absolute;
-  bottom: 280px;
-  right: 290px;
+.aboutMePhoto img {
+  margin: 150px 255px 0 0;
 border-radius: 50%;
 max-width: 325px;
 max-height: 325px;
 filter: grayscale(25%);
-border: 4px solid #B1B0C0;
+border: 2px solid #B1B0C0;
 }
 
 .navbarLinks {margin-left: 500px;
@@ -125,3 +126,7 @@ margin: 110px 0 0 205px;}
   .active:visited {color: #8c9ebe;
       cursor: default;
   text-decoration: none;}
+
+  .left {float: left;}
+
+  .right {float: right;}
