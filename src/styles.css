@@ -6,8 +6,10 @@ body {background: url('../media/landscape.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #F1F1F1;
-    height: 100%;
-    width: 100%;
+    max-height: 100%;
+   max-width: 100%;
+    min-width: 600px;
+    min-height: 600px;
   background-position-y: 85%;
   background-position-x: 15%;
 color: #232a63;
@@ -15,7 +17,9 @@ font-family: 'Roboto', sans-serif;}
 
 html{
   width:100%;
-  height:100%;
+  height:100%;  
+  min-width: 600px;
+  min-height: 600px;
 }
 
 h4 {padding: 100px 0 0 220px;}
@@ -43,8 +47,14 @@ cursor: default;
   text-decoration: none;
 }
 
+
+.left {float: left;}
+
+.right {float: right;}
+
 .weatherAppPic {transition: all 100ms ease-in-out;
 border-radius: 4px;}
+
 .weatherAppPic:hover {filter: grayscale(100%);
   opacity: 0.2;
   cursor: pointer;
@@ -53,22 +63,22 @@ border-radius: 4px;}
 
 .basedIn {font-size: 32px;
   font-family: 'Roboto', sans-serif;
-padding-left: 595px;
-text-shadow: 2px 2px 5px #A4A3B4;
+padding-left: 395px;
 color: #3a4658;}
 
 .name {font-size: 48px;
 color:#1e1949;
 font-family: 'Crimson Text', serif;
-padding-left: 780px;
+padding-left: 500px;
 letter-spacing: 13px;
-text-shadow: 5px 3px 5px #9395AA;
+text-shadow: 3px 3px 5px #a3a5bd,
+0px 0px 15px #e0c3ee;
 }
 
 .contactHeader h1 {font-family: 'Crimson Text', serif;
 padding-left: 850px;}
 
-.aboutPage, .contactPage {width: 100%;}
+
 .aboutMe p {
   max-width: 800px;
   height: 100%;
@@ -78,7 +88,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 22px;}
 
 .aboutMePhoto img {
-  margin: 150px 255px 0 0;
+  margin: 150px 0 0 100px;
 border-radius: 50%;
 max-width: 325px;
 max-height: 325px;
@@ -86,9 +96,9 @@ filter: grayscale(25%);
 border: 2px solid #B1B0C0;
 }
 
-.navbarLinks {margin-left: 800px;
-width: 100%;
-height: 100%;
+.navbarLinks {margin-left: 600px;
+max-width: 100%;
+max-height: 100%;
 font-size: 22px;}
 
 .col-3 {padding-right: 35px;}
@@ -100,29 +110,37 @@ font-size: 22px;}
   border-radius: 30%;
 }
 
+.contactHeader {position: relative;
+top: 90px;
+right: 550px}
+
+.card-title {margin-top: 15px;}
 
 
-.submitButton {background-color: #CDCBD8;
-margin: 10px 0 0 805px;
+  .contactLinks {position: relative;
+    bottom: 335px;
+    left: 145px;
+
+}
+
+.inputs {
+  max-width: 100%;
+margin-top: 110px;
+padding-left: 300px;}
+
+.submitButton {
+  background-color: #f1f1f1;
+margin: 10px 0 0 675px;
 border-radius: 8px;
 padding: 6px 12px;
 color: #434E60;
 border: 1px solid #b4b1c7;
-box-shadow: 1px 1px 5px -1px #8e97ca;
+box-shadow: 1px 1px 3px 2px #8e97ca;
 font-weight: 800;
 transition: all 100ms ease-in-out;}
 
-.submitButton:hover {background-color: #9B9EAD;
-color: #364152}
-
-.contactHeader {position: relative;
-top: 90px;
-right: 650px}
-
-.inputs {
-  max-width: 70%;
-margin-top: 110px;
-padding-left: 250px;}
+.submitButton:hover {background-color:#dad7f0;
+color: #68707c;}
 
 .active:hover {text-decoration: none;
   cursor: default;
@@ -136,17 +154,9 @@ padding-left: 250px;}
       cursor: default;
   text-decoration: none;}
 
-  .left {float: left;}
-
-  .right {float: right;}
-
-  .contactLinks {margin-top: 10px;
-  padding: 15px 25px;
-  position: fixed;
-left: 850px;}
-
   .list-group-item:hover {cursor: pointer;
     color: #17103c; }
 
     .list-group-item:active, .list-group-item {color: #6a7790;
-    text-align: center;}
+    text-align: center;
+    padding: 12px 25px;}
