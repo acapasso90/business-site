@@ -157,3 +157,6 @@ color: #68707c;}
     .list-group-item:active, .list-group-item {color: #6a7790;
     text-align: center;
     padding: 12px 25px;}
+
+    .filler {margin: 0;
+    padding-right: 500px;}
