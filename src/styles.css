@@ -51,13 +51,7 @@ cursor: default;
 .right {float: right;
 height: 0px;}
 
-.weatherAppPic {transition: all 100ms ease-in-out;
-border-radius: 4px;}
 
-.weatherAppPic:hover {filter: grayscale(100%);
-  opacity: 0.2;
-  cursor: pointer;
-}
 
 
 .basedIn {font-size: 32px;
@@ -78,6 +72,7 @@ text-shadow: 3px 3px 5px #a3a5bd,
 padding: 80px 0 0 250px;
 margin: 0;}
 
+.container {margin-left: 0;}
 
 .aboutMe p {
   max-width: 800px;
@@ -96,13 +91,13 @@ filter: grayscale(25%);
 border: 2px solid #B1B0C0;
 }
 
-.navbarLinks {margin-left: 600px;
+.navbarLinks {margin-left: 15px;
   position: fixed;
 max-width: 100%;
 max-height: 100%;
 font-size: 22px;}
 
-.col-3 {padding-right: 35px;}
+.col-md {margin: 0 20px;}
 
 .monogramLogo {margin-left: 70px;}
 
@@ -158,5 +153,11 @@ color: #68707c;}
     text-align: center;
     padding: 12px 25px;}
 
-    .filler {margin: 0;
-    padding-left: 950px;}
+    .weatherAppPic {transition: all 100ms ease-in-out;
+      border-radius: 4px;}
+      
+      .weatherAppPic:hover {filter: grayscale(100%);
+        opacity: 0.2;
+        cursor: pointer;
+      }
+
