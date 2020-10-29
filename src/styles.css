@@ -57,7 +57,8 @@ height: 0px;}
 .basedIn {font-size: 32px;
   font-family: 'Roboto', sans-serif;
 padding-left: 195px;
-color: #3a4658;}
+color: #3a4658;
+white-space: nowrap;}
 
 .name {font-size: 48px;
 color:#1e1949;
@@ -66,6 +67,7 @@ padding-left: 300px;
 letter-spacing: 13px;
 text-shadow: 3px 3px 5px #a3a5bd,
 0px 0px 15px #e0c3ee;
+white-space: nowrap;
 }
 
 .contactHeader h1 {font-family: 'Crimson Text', serif;
@@ -80,7 +82,8 @@ margin: 0;}
   padding: 180px 0 0 150px;
 text-align: left;
 font-family: 'Roboto', sans-serif;
-font-size: 22px;}
+font-size: 22px;
+white-space: nowrap;}
 
 .aboutMePhoto img {
   margin: 150px 0 0 90px;
@@ -99,7 +102,9 @@ font-size: 22px;}
 
 .col-md {margin: 0 20px;}
 
-.monogramLogo {margin-left: 70px;}
+.monogramLogo {margin-left: 70px;
+  border-radius: 5px;
+box-shadow: 0px 0px 10px #E9E9E9;}
 
 .weatherAppVanilla {padding: 150px 0 0 250px;
   text-align: center;
