@@ -56,20 +56,20 @@ height: 0px;}
 
 .basedIn {font-size: 32px;
   font-family: 'Roboto', sans-serif;
-padding-left: 395px;
+padding-left: 195px;
 color: #3a4658;}
 
 .name {font-size: 48px;
 color:#1e1949;
 font-family: 'Crimson Text', serif;
-padding-left: 500px;
+padding-left: 300px;
 letter-spacing: 13px;
 text-shadow: 3px 3px 5px #a3a5bd,
 0px 0px 15px #e0c3ee;
 }
 
 .contactHeader h1 {font-family: 'Crimson Text', serif;
-padding: 80px 0 0 250px;
+padding: 80px 0 0 150px;
 margin: 0;}
 
 .container {margin-left: 0;}
@@ -77,13 +77,13 @@ margin: 0;}
 .aboutMe p {
   max-width: 800px;
   height: 100%;
-  padding: 180px 0 0 250px;
+  padding: 180px 0 0 150px;
 text-align: left;
 font-family: 'Roboto', sans-serif;
 font-size: 22px;}
 
 .aboutMePhoto img {
-  margin: 150px 0 0 100px;
+  margin: 150px 0 0 90px;
 border-radius: 50%;
 max-width: 325px;
 max-height: 325px;
@@ -101,7 +101,7 @@ font-size: 22px;}
 
 .monogramLogo {margin-left: 70px;}
 
-.weatherAppVanilla {padding: 150px 0 0 950px;
+.weatherAppVanilla {padding: 150px 0 0 250px;
   text-align: center;
   border-radius: 30%;
 }
@@ -118,11 +118,11 @@ font-size: 22px;}
 .inputs {
   max-width: 100%;
 margin-top: 10px;
-padding-left: 250px;}
+padding-left: 150px;}
 
 .submitButton {
   background-color: #f1f1f1;
-margin: 10px 0 0 670px;
+margin: 10px 0 0 620px;
 border-radius: 8px;
 padding: 6px 12px;
 color: #434E60;
@@ -132,7 +132,8 @@ font-weight: 800;
 transition: all 100ms ease-in-out;}
 
 .submitButton:hover {background-color:#dad7f0;
-color: #68707c;}
+color: #17103c;
+box-shadow: 1px 1px 3px 2px #17103c;}
 
 .active:hover {text-decoration: none;
   cursor: default;
@@ -160,4 +161,3 @@ color: #68707c;}
         opacity: 0.2;
         cursor: pointer;
       }
-
