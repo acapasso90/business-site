@@ -2,16 +2,13 @@ img {
 max-height: 1200px;
 max-width: 100%;}
 
-body {background: url('../media/landscape.jpg');
+body {background: url('../media/dicky-satria-F1K6ssl-7Kc-unsplash.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #F1F1F1;
-    max-height: 100%;
-   max-width: 100%;
-    min-width: 950px;
-  background-position-y: 90%;
-  background-position-x: 90%;
-color: #232a63;
+    background-color: #f1f2f4;
+  background-position-x: right;
+color: #394222;
+margin: 0;
 font-family: 'Roboto', sans-serif;}
 
 html{
@@ -27,24 +24,25 @@ h4 p {padding-top: 100px;
 
 
 footer {position: fixed;
-  padding-right: 500px;
   bottom: 0;
+  padding-right: 500px;
   width: 50%;
   font-size: 18px;
 text-align: center;
 white-space: nowrap;
 }
 
-a, a:visited {color: #6a7790;
+a, a:visited {color:#1a6622;
   transition: all 100ms ease-in-out;
 }
 
 a:hover {
-color: #17103c; 
+color: #000000; 
 cursor: default;
   text-decoration: none;
 }
 
+label {color: #434e43;}
 
 .left {float: left;}
 
@@ -52,44 +50,92 @@ cursor: default;
 height: 0px;}
 
 
+.backdrop {background-color: #f1f1f1;
+opacity: 70%;
+max-width: 520px;
+min-height: 60px;
+padding: 0;
+z-index: -1;
+position: relative;
+top: 150px;
+right: 7px;}
 
+.backdrop2 {background-color: #e7ac94;
+  opacity: 70%;
+  max-width: 550px;
+  min-height: 60px;
+  z-index: -1;
+  position: relative;
+  bottom: 10px;
+right: 75px;}
+
+.backdrop3 {background-color:#f1f1f1;
+  opacity: 70%;
+  min-width: 740px;
+  max-width: 800px;
+  min-height: 210px;
+  z-index: -1;
+  position: relative;
+right: 160px;
+bottom: 40px;
+}
+.backdrop4 {background-color:#f1f1f1;
+  opacity: 70%;
+  min-width: 880px;
+  max-width: 900px;
+  min-height: 450px;
+  position: absolute;
+  z-index: -1;
+  left: 170px;
+  bottom: 180px;
+
+ }
 
 .basedIn {font-size: 32px;
   font-family: 'Roboto', sans-serif;
-color: #3a4658;
+color: #4D523C;
+position: relative;
+right: 70px;
+bottom: 60px;
 white-space: nowrap;}
 
 .name {font-size: 48px;
-color:#1e1949;
+color:#9c5341;
 font-family: 'Crimson Text', serif;
-padding-left: 90px;
 letter-spacing: 13px;
 text-shadow: 3px 3px 5px #a3a5bd,
 0px 0px 15px #e0c3ee;
 white-space: nowrap;
 }
 
+.text-muted {color: #1e8105!important;
+text-emphasis: bold!important;}
+
 .contactHeader h1 {font-family: 'Crimson Text', serif;
-padding: 80px 0 0 150px;
-margin: 0;}
+padding: 150px 0 0 180px;
+display: inline-block;
+color: #9C534E;
+z-index: 1;}
 
 .container {margin-left: 0;}
 
 .aboutMe p {
-  max-width: 800px;
+  max-width: 700px;
   height: 100%;
-  padding: 180px 0 0 150px;
+position: relative;
+right: 150px;
+top: 170px; 
 text-align: left;
 font-family: 'Roboto', sans-serif;
 font-size: 22px;}
 
 .aboutMePhoto img {
-  margin: 150px 0 0 90px;
+  margin: 160px 0 0 180px;
 border-radius: 50%;
 max-width: 325px;
 max-height: 325px;
 filter: grayscale(25%);
-border: 2px solid #B1B0C0;
+border: 2px solid #4F5748;
 }
 
 .navbarLinks {margin-left: 15px;
@@ -102,7 +148,7 @@ font-size: 22px;}
 
 .monogramLogo {margin-left: 70px;
   border-radius: 5px;
-box-shadow: 0px 0px 7px #E9E9E9;}
+box-shadow: 0px 0px 7px #c5afa5;}
 
 .weatherAppVanilla, .fortuneTeller {padding: 150px 0 0 250px;
   margin-bottom: 0;
@@ -123,44 +169,46 @@ box-shadow: 0px 0px 7px #E9E9E9;}
 
 }
 
+
 .icons {padding-left: 0;
 margin: 0;}
+
 .inputs {
   max-width: 100%;
 margin-top: 10px;
-padding-left: 150px;}
+padding-left: 190px;}
 
 .submitButton {
   background-color: #f1f1f1;
 margin: 10px 0 0 620px;
 border-radius: 8px;
 padding: 6px 12px;
-color: #434E60;
-border: 1px solid #b4b1c7;
-box-shadow: 1px 1px 3px 2px #8e97ca;
+color: #1a6622;
+border: 2px solid #629e54;
+box-shadow: 1px 1px 3px 2px #9aca8e;
 font-weight: 800;
 transition: all 100ms ease-in-out;}
 
-.submitButton:hover {background-color:#dad7f0;
-color: #17103c;
-box-shadow: 1px 1px 3px 2px #17103c;}
+.submitButton:hover {background-color:#f5e3c7;
+color: #143806;
+box-shadow: 1px 1px 3px 2px #0f4b00;}
 
 .active:hover {text-decoration: none;
   cursor: default;
   color: #8c9ebe;}
 
-  .active {color: #8c9ebe;
+  .active {color: #9C534E;
       cursor: default;
   text-decoration: none;}
 
-  .active:visited {color: #8c9ebe;
+  .active:visited {color: #9C534E;
       cursor: default;
   text-decoration: none;}
 
   .list-group-item:hover {cursor: pointer;
-    color: #17103c; }
+    color: #000000; }
 
-    .list-group-item:active, .list-group-item {color: #6a7790;
+    .list-group-item:active, .list-group-item {color: #1a6622;
     text-align: center;
     padding: 12px 25px;}
 
