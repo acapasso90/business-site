@@ -140,6 +140,7 @@ z-index: 1;}
 
 .container {margin-left: 0;}
 
+.col- {max-height: 380px;}
 .aboutMe p {
   max-width: 700px;
   height: 100%;
@@ -171,7 +172,7 @@ font-size: 22px;}
   border-radius: 5px;
 box-shadow: 0px 0px 7px #c5afa5;}
 
-.weatherAppVanilla, .fortuneTeller {padding: 150px 0 0 250px;
+.weatherAppVanilla, .fortuneTeller, .tarotReading {padding: 150px 0 0 250px;
   margin-bottom: 0;
   text-align: center;
   border-radius: 30%;}
@@ -181,7 +182,8 @@ box-shadow: 0px 0px 7px #c5afa5;}
   text-align: center;
   border-radius: 30%;}
 
-.card-title {margin-top: 15px;}
+.card-title {margin-top: 15px;
+color: #a34f3a;}
 
 
   .contactLinks {position: relative;
