@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif;}
 html{
   width:100%;
   max-height: 100%;
-  min-width: 950px;
+  min-width: 1100px;
 }
 
 h4 {padding: 100px 0 0 220px;}
@@ -25,8 +25,8 @@ h4 p {padding-top: 100px;
 
 footer {
 position: fixed;
-bottom: 20px;
-left: -220px;
+bottom: 5px;
+left: -280px;
   width: 50%;
   font-size: 18px;
 text-align: center;
@@ -168,19 +168,17 @@ font-size: 22px;}
 
 .col-md {margin: 0 20px;}
 
-.monogramLogo {margin-left: 70px;
+.monogramLogo {margin-left: 35px;
   border-radius: 5px;
 box-shadow: 0px 0px 7px #c5afa5;}
 
-.weatherAppVanilla, .fortuneTeller, .tarotReading {padding: 150px 0 0 250px;
+.weatherAppVanilla, .fortuneTeller, .tarotReading, .donutUI {padding: 150px 0 0 200px;
   margin-bottom: 0;
   text-align: center;
   border-radius: 30%;}
 
 .weatherAppVanilla {padding-bottom: 20px;}
-.fortuneTeller {padding: 150px 0 0 250px;
-  text-align: center;
-  border-radius: 30%;}
+
 
 .card-title {margin-top: 15px;
 color: #a34f3a;}
