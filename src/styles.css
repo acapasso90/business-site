@@ -8,22 +8,22 @@ cursor: default;
   text-decoration: none;
 }
 
+
 body {background: url('../media/dicky-satria-F1K6ssl-7Kc-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #f1f2f4;
-  background-position-x: right;
-  max-height: 900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f1f2f4;
+background-position-x: right;
+max-height: 900px;
 color: #394222;
 margin: 0;
 font-family: 'Roboto', sans-serif;}
-
 
 button {
   background-color: #f1f1f1;
 margin-left: 620px;
 border-radius: 8px;
-padding: 6px 11.5px;
+padding: 12px 21px;
 color: #1a6622;
 border: 2px solid #629e54;
 box-shadow: 1px 1px 3px 2px #9aca8e;
@@ -34,7 +34,8 @@ transition: all 100ms ease-in-out;}
 button:hover {background-color:#f8d49f;
 color: #143806;
 font-size: 16.5px;
-padding: 6px 11px;
+padding: 11.5px 21.5px;
+box-shadow: 1px 1px 3px 3px #9aca8e;
 font-weight: 1000;
 box-shadow: 1px 1px 3px 2px #0f4b00;}
 
@@ -155,10 +156,11 @@ right: 70px;
 bottom: 60px;
 white-space: nowrap;}
 
-
 .col- {max-height: 380px;}
 
-.col-md {margin: 0 20px;}
+.col-md {margin-left: 20px;}
+
+.container {margin-left: 0;}
 
 
 .contactHeader h1 {font-family: 'Crimson Text', serif;
@@ -173,11 +175,14 @@ z-index: 1;}
   left: 145px;
 }
 
+.card {max-height: 290px;}
+
 .card-title {margin-top: 15px;
   color: #a34f3a;}
   
 
-.container {margin-left: 0;}
+
+
 
 
 .icons {padding-left: 0;
@@ -200,7 +205,9 @@ z-index: 1;}
   text-align: center;
   padding: 12px 25px;}
 
-  .monogramLogo {margin-left: 35px;
+  .monogramLogo {margin-left: 5px;
+    position: relative;
+    bottom: 32px;
     border-radius: 5px;
   box-shadow: 0px 0px 7px #c5afa5;}
 
@@ -213,7 +220,9 @@ z-index: 1;}
   white-space: nowrap;
   }
 
-.navbarLinks {margin-left: 15px;
+.navbar {padding-top: 75px;}
+
+.navbarLinks {margin-top: 20px;
   position: fixed;
 max-width: 100%;
 max-height: 100%;
@@ -221,7 +230,6 @@ font-size: 22px;}
 
 .nextPage {text-align: center; 
   margin-top: 20px;}
-
 
 .right {float: right;
   height: 0px;}
