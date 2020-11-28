@@ -162,7 +162,6 @@ white-space: nowrap;}
 
 .container {margin-left: 0;}
 
-
 .contactHeader h1 {font-family: 'Crimson Text', serif;
 padding: 150px 0 0 180px;
 display: inline-block;
@@ -171,8 +170,11 @@ z-index: 1;}
 
   
 .contactLinks {position: relative;
-  bottom: 330px;
-  left: 145px;
+  min-width: 135px;
+  max-width: 135px;
+  right:50%;
+    margin-right: 330px; 
+  top: 225px;
 }
 
 .card {max-height: 290px;}
@@ -192,8 +194,10 @@ z-index: 1;}
   
   .inputs {
     max-width: 100%;
+    min-width: 80%;
   margin-top: 10px;
-  padding-left: 190px;}
+  padding-left: 190px;
+margin-right: 20px;}
 
 .left {float: left;}
 

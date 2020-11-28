@@ -22,7 +22,7 @@ a, a:visited {color:#1a6622;
 
     
 button {
-  margin-left: 300px;
+  margin-left: 310px;
   background-color: #f1f1f1;
 border-radius: 8px;
 padding: 12px 21px;
@@ -69,12 +69,12 @@ label {color: #434e43;}
 
 
     .aboutMePhoto img {
-        margin-left: 70px;
+        margin-left: 80px;
         position: relative;
         top: 370px;
       border-radius: 50%;
-      max-width: 225px;
-      max-height: 225px;
+      max-width: 255px;
+      max-height: 255px;
       filter: grayscale(25%);
       border: 2px solid #4F5748;
       }
@@ -100,7 +100,7 @@ label {color: #434e43;}
         z-index: -1;
         position: fixed;
         bottom: 5px;
-        left: 12px;}
+        left: 15px;}
 
         .backdropFooter2 {background-color: #f1f1f1;
             opacity: 60%;
@@ -111,7 +111,7 @@ label {color: #434e43;}
             z-index: -1;
             position: fixed;
             bottom: 5px;
-            left: 12px;}
+            left: 15px;}
 
         .backdropFooter3 {background-color: #f1f1f1;
             opacity: 60%;
@@ -122,7 +122,7 @@ label {color: #434e43;}
             z-index: -1;
             position: fixed;
             bottom: 5px;
-            left: 12px;}
+            left: 15px;}
 
         
         .backdropFooter4 {background-color: #f1f1f1;
@@ -157,8 +157,10 @@ font-size: 17px;}
     z-index: 1;}
 
     .contactLinks .list-group {display: flex;
+      align-items: flex-end;
+      flex-basis: 74px;
         flex-direction: row;
-        max-width: 72px;
+        max-width: 104px;
         position: relative;
         right: 300px;
         top: 50px;
@@ -215,7 +217,8 @@ flex-direction: column!important;}
   .right {float: right;
     height: 0px;}
 
-    .right .contactLinks {margin-right: 30px;}
+    .right .contactLinks {margin-right: 34px;
+    margin-top: 10px;}
 
     .text-muted {color: #1e8105!important;
         text-emphasis: bold!important;}
