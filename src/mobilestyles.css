@@ -22,7 +22,7 @@ a, a:visited {color:#1a6622;
 
     
 button {
-  margin-left: 280px;
+  margin-left: 300px;
   background-color: #f1f1f1;
 border-radius: 8px;
 padding: 12px 21px;
@@ -215,7 +215,7 @@ flex-direction: column!important;}
   .right {float: right;
     height: 0px;}
 
-    .right .contactLinks {margin-right: 20px;}
+    .right .contactLinks {margin-right: 30px;}
 
     .text-muted {color: #1e8105!important;
         text-emphasis: bold!important;}
