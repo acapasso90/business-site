@@ -134,7 +134,7 @@ label {color: #434e43;}
             z-index: -1;
             position: fixed;
             bottom: 5px;
-            left: 12px;}
+            left: 10px;}
 
         .basedIn {font-size: 20px;
             text-align: right;
@@ -161,6 +161,8 @@ font-size: 17px;}
       flex-basis: 74px;
         flex-direction: row;
         max-width: 104px;
+        max-height: 73px;
+        min-height: 73px;
         position: relative;
         right: 300px;
         top: 50px;
