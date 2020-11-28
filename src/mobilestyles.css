@@ -8,7 +8,19 @@ a, a:visited {color:#1a6622;
     text-decoration: none;
   }
 
-  
+
+  body {background: url('../media/dicky-satria-mobile.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 562px 862px;
+    background-color: #f1f2f4;
+  background-position-x: left;
+  max-height: 900px;
+  color: #394222;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;}
+
+    
 button {
   margin-left: 250px;
   background-color: #f1f1f1;
@@ -27,23 +39,11 @@ padding: 11.5px 21.5px;
 box-shadow: 1px 1px 3px 3px #9aca8e;
 font-weight: 1000;
 box-shadow: 1px 1px 3px 2px #0f4b00;}
-
-  body {background: url('../media/dicky-satria-mobile.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 400px 710px;
-    background-color: #f1f2f4;
-  background-position-x: left;
-  max-height: 900px;
-  color: #394222;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;}
-
   
 footer {
     position: fixed;
-    bottom: 1px;
-    left: -40px;
+    bottom: 0px;
+    left: -45px;
       width: 50%;
       font-size: 18px;
     text-align: center;
@@ -95,46 +95,46 @@ label {color: #434e43;}
         opacity: 60%;
         max-width: 86px;
         min-width: 86px;
-        min-height: 21px;
+        min-height: 20px;
         padding: 0;
         z-index: -1;
         position: fixed;
-        margin-top: 570px;
-        margin-left: -7px;}
+        bottom: 5px;
+        left: 2px;}
 
         .backdropFooter2 {background-color: #f1f1f1;
             opacity: 60%;
             max-width: 86px;
             min-width: 86px;
-            min-height: 21px;
+            min-height: 20px;
             padding: 0;
             z-index: -1;
             position: fixed;
-            margin-top: 613px;
-        left: 7px;}
+            bottom: 5px;
+            left: 2px;}
 
         .backdropFooter3 {background-color: #f1f1f1;
             opacity: 60%;
             max-width: 86px;
-            min-height: 21px;
+            min-height: 20px;
             min-width: 86px;
             padding: 0;
             z-index: -1;
             position: fixed;
-            top: 613px;
-        left: 7px;}
+            bottom: 5px;
+            left: 2px;}
 
         
         .backdropFooter4 {background-color: #f1f1f1;
             opacity: 60%;
             max-width: 86px;
-            min-height: 21px;
+            min-height: 20px;
             min-width: 86px;
             padding: 0;
             z-index: -1;
             position: fixed;
-            top: 642px;
-        left: 12px;}
+            bottom: 5px;
+            left: 9px;}
 
         .basedIn {font-size: 20px;
             text-align: right;
@@ -163,8 +163,7 @@ font-size: 17px;}
         right: 300px;
         top: 50px;
         font-size: 12px;
-        
-      }
+        }
 .container {margin-left: 0;}
 
 .homepage h4 {margin-top: 20px;}
@@ -215,6 +214,8 @@ font-size: 17px;}
 flex-direction: column!important;}
   .right {float: right;
     height: 0px;}
+
+    .right .contactLinks {margin-right: 10px;}
 
     .text-muted {color: #1e8105!important;
         text-emphasis: bold!important;}
