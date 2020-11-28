@@ -22,7 +22,7 @@ a, a:visited {color:#1a6622;
 
     
 button {
-  margin-left: 250px;
+  margin-left: 280px;
   background-color: #f1f1f1;
 border-radius: 8px;
 padding: 12px 21px;
@@ -100,7 +100,7 @@ label {color: #434e43;}
         z-index: -1;
         position: fixed;
         bottom: 5px;
-        left: 2px;}
+        left: 5px;}
 
         .backdropFooter2 {background-color: #f1f1f1;
             opacity: 60%;
@@ -111,7 +111,7 @@ label {color: #434e43;}
             z-index: -1;
             position: fixed;
             bottom: 5px;
-            left: 2px;}
+            left: 5px;}
 
         .backdropFooter3 {background-color: #f1f1f1;
             opacity: 60%;
@@ -122,7 +122,7 @@ label {color: #434e43;}
             z-index: -1;
             position: fixed;
             bottom: 5px;
-            left: 2px;}
+            left: 5px;}
 
         
         .backdropFooter4 {background-color: #f1f1f1;
@@ -134,7 +134,7 @@ label {color: #434e43;}
             z-index: -1;
             position: fixed;
             bottom: 5px;
-            left: 9px;}
+            left: 12px;}
 
         .basedIn {font-size: 20px;
             text-align: right;
@@ -215,7 +215,7 @@ flex-direction: column!important;}
   .right {float: right;
     height: 0px;}
 
-    .right .contactLinks {margin-right: 10px;}
+    .right .contactLinks {margin-right: 20px;}
 
     .text-muted {color: #1e8105!important;
         text-emphasis: bold!important;}
