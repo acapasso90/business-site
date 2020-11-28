@@ -3,7 +3,7 @@ a, a:visited {color:#1a6622;
   }
 
   a:hover {
-  color: #000000; 
+  color: #441900; 
   cursor: default;
     text-decoration: none;
   }
@@ -136,10 +136,12 @@ label {color: #434e43;}
             bottom: 5px;
             left: 19px;}
 
-        .basedIn {font-size: 20px;
+        .basedIn {font-size: 28px;
+          margin-top: -10px;
+          letter-spacing: -3px;
             text-align: right;
-            font-family: 'Roboto', sans-serif;
-          color: #4D523C;
+            font-family: 'Amiri', serif;
+          color: #4e533d;
           white-space: nowrap;}
 
 .card {max-width: 220px;
@@ -186,14 +188,14 @@ font-size: 17px;}
     max-height: 60.266px;
     padding: 12px 25px;}
 
-.name {margin-top: 32px;
-    font-size: 28px;
-    color:#9c5341;
+.name {margin-top: 30px;
+    font-size: 40px;
+    color:#9C534E;
     font-family: 'Crimson Text', serif;
-    letter-spacing: 10px;
-    text-shadow: 3px 3px 5px #bda3a3,
-    0px 0px 15px #e0c3ee;
+    letter-spacing: 3px;
     white-space: nowrap;
+    text-shadow: 3px 3px 3px #d8c3bb,
+    0px 0px 15px #d8c3bb;
     }
 
     .nav .active {color: #9C534E;
