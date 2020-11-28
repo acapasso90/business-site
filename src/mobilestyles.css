@@ -134,7 +134,7 @@ label {color: #434e43;}
             z-index: -1;
             position: fixed;
             bottom: 5px;
-            left: 10px;}
+            left: 13px;}
 
         .basedIn {font-size: 20px;
             text-align: right;
@@ -160,9 +160,7 @@ font-size: 17px;}
       align-items: flex-end;
       flex-basis: 74px;
         flex-direction: row;
-        max-width: 104px;
-        max-height: 73px;
-        min-height: 73px;
+        max-width: 90px;
         position: relative;
         right: 300px;
         top: 50px;
@@ -184,6 +182,8 @@ font-size: 17px;}
   
     .list-group-item:active, .list-group-item {color: #1a6622;
     text-align: center;
+    min-height: 60.266px;
+    max-height: 60.266px;
     padding: 12px 25px;}
 
 .name {margin-top: 32px;
