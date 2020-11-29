@@ -4,5 +4,5 @@ var basedIn = document.querySelector(".basedIn");
 setInterval(change, 2000);
 function change() {
 basedIn.innerHTML = text[counter];
-    counter++;
-    if(counter >= text.length) { counter = 0; }}
+counter++;
+if(counter >= text.length) { counter = 0; };}
