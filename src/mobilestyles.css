@@ -144,6 +144,14 @@ label {color: #434e43;}
           color: #4e533d;
           white-space: nowrap;}
 
+          .basedIn2 {font-size: 28px;
+          margin-top: -10px;
+          letter-spacing:  0px;
+            text-align: right;
+            font-family: 'Amiri', serif;
+          color: #4e533d;
+          white-space: nowrap;}
+
 .card {max-width: 220px;
 max-height: 205px;}
 
