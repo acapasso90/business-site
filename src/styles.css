@@ -143,8 +143,8 @@ bottom: 40px;
   min-height: 460px;
   position: absolute;
   z-index: -1;
-  left: 170px;
-  bottom: 120px;
+  left: 150px;
+  bottom: 100px;
 
  }
 
@@ -165,7 +165,7 @@ white-space: nowrap;}
 .container {margin-left: 0;}
 
 .contactHeader h1 {font-family: 'Crimson Text', serif;
-padding: 150px 0 0 180px;
+padding: 150px 0 0 140px;
 display: inline-block;
 color: #9C534E;
 z-index: 1;}
@@ -174,9 +174,9 @@ z-index: 1;}
 .contactLinks {position: relative;
   min-width: 135px;
   max-width: 135px;
-  right:50%;
-    margin-right: 330px; 
-  top: 225px;
+  left: 22%;
+    margin-right: 450px; 
+  bottom: 315px;
 }
 
 .card {max-height: 290px;}
@@ -198,7 +198,7 @@ z-index: 1;}
     max-width: 100%;
     min-width: 80%;
   margin-top: 10px;
-  padding-left: 190px;
+  padding-left: 280px;
 margin-right: 20px;}
 
 .left {float: left;}
