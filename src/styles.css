@@ -134,7 +134,7 @@ right: 75px;}
   z-index: -1;
   position: relative;
 right: 160px;
-bottom: 40px;
+bottom: 45px;
 }
 .backdrop4 {background-color:#f1f1f1;
   opacity: 70%;
@@ -243,7 +243,7 @@ margin-right: 20px;}
   position: fixed;
 max-width: 100%;
 max-height: 100%;
-font-size: 22px;}
+font-size: 24px;}
 
 .nextPage {text-align: center; 
   margin-top: 20px;}
