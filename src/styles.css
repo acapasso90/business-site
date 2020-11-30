@@ -181,6 +181,7 @@ z-index: 1;}
 
 .card {max-height: 290px;}
 
+
 .card-title {margin-top: 15px;
   color: #a34f3a;}
   
@@ -262,9 +263,20 @@ font-size: 22px;}
         opacity: 0.2;
         cursor: pointer;
       }
+      .fortuneTeller {padding: 140px 0 0 111px;
+        margin-bottom: 0;
+        text-align: center;
+        border-radius: 30%;}
 
-      
-.weatherAppVanilla, .fortuneTeller, .tarotReading, .donutUI, .reactWeatherApp, .divArt {padding: 110px 0 0 155px;
+        .fortuneTeller .card, .donutUI .card {    max-width: 335px;}
+ 
+        .donutUI  {padding: 140px 0 0 111px;
+          margin-bottom: 0;
+          text-align: center;
+          border-radius: 30%;}
+
+
+.weatherAppVanilla, .tarotReading,   .reactWeatherApp, .divArt {padding: 140px 0 0 110px;
   margin-bottom: 0;
   text-align: center;
   border-radius: 30%;}
