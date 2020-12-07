@@ -1,4 +1,3 @@
-
 function stopActive(event) {event.preventDefault();
 activeLink.classList.add("active");}
 

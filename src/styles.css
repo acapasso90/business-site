@@ -140,11 +140,11 @@ bottom: 45px;
   opacity: 70%;
   min-width: 880px;
   max-width: 900px;
-  min-height: 460px;
+  min-height: 420px;
   position: absolute;
   z-index: -1;
   left: 150px;
-  bottom: 100px;
+  bottom: 140px;
 
  }
 
@@ -171,12 +171,11 @@ color: #9C534E;
 z-index: 1;}
 
   
-.contactLinks {position: relative;
+.contactLinks {position: absolute;
+  left: 120px;
   min-width: 135px;
   max-width: 135px;
-  left: 22%;
-    margin-right: 450px; 
-  bottom: 315px;
+  bottom: 268px;
 }
 
 .card {max-height: 290px;}
@@ -248,6 +247,8 @@ font-size: 24px;}
 .nextPage {text-align: center; 
   margin-top: 20px;}
 
+.portfolio {position: relative;
+bottom: 20px;}
 .right {float: right;
   height: 0px;}
 
