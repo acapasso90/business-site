@@ -44,7 +44,7 @@ a, a:visited {color:#1a6622;
   footer {
     position: fixed;
     bottom: 5px;
-    left: -280px;
+    left: -230px;
       width: 50%;
       font-size: 18px;
     text-align: center;
@@ -187,7 +187,8 @@ a, a:visited {color:#1a6622;
     left: 120px;
     min-width: 135px;
     max-width: 135px;
-    bottom: 268px;
+    bottom: 245px;
+    white-space: nowrap;
   }
   
   .card {min-height: 240px;
