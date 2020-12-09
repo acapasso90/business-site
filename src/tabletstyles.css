@@ -54,7 +54,7 @@ a, a:visited {color:#1a6622;
 
 .portfolioFooter footer {
     position: fixed;
-    bottom: 215px;
+    margin-left: 50px;
       width: 50%;
       font-size: 18px;
     text-align: center;
@@ -167,6 +167,8 @@ a, a:visited {color:#1a6622;
   right: 70px;
   bottom: 60px;
   white-space: nowrap;}
+
+
   
   .col- {max-height: 380px;}
   
@@ -188,7 +190,13 @@ a, a:visited {color:#1a6622;
     bottom: 268px;
   }
   
-  .card {max-height: 290px;}
+  .card {min-height: 240px;
+    max-height: 240px;
+  max-width: 260px;
+margin-top: 150px;
+margin-left: 50px;
+padding: 0px 20px 10px 20px;
+text-align: center;}
   
   
   .card-title {margin-top: 15px;
@@ -258,7 +266,8 @@ a, a:visited {color:#1a6622;
     margin-top: 20px;}
   
   .portfolio {position: relative;
-  bottom: 40px;}
+  bottom: 40px;
+}
   .right {float: right;
     height: 0px;}
   
@@ -268,30 +277,10 @@ a, a:visited {color:#1a6622;
   
       .weatherAppPic {transition: all 100ms ease-in-out;
         border-radius: 4px;
-        max-height: 180px;}
+        max-height: 150px;}
         
         .weatherAppPic:hover {filter: grayscale(100%);
           opacity: 0.2;
           cursor: pointer;
         }
-        .kkSlider {padding: 140px 0 0 111px;
-          margin-bottom: 0;
-          text-align: center;
-          border-radius: 30%;}
-  
-          .kkSlider .card, .donutUI .card {    max-width: 335px;}
-   
-          .donutUI  {padding: 140px 0 0 111px;
-            margin-bottom: 0;
-            text-align: center;
-            border-radius: 30%;}
-  
-  
-  .weatherAppVanilla, .tarotReading,   .reactWeatherApp, .divArt {padding: 140px 0 0 110px;
-    margin-bottom: 0;
-    text-align: center;
-    border-radius: 30%;}
-
       
-  .weatherAppVanilla {padding-bottom: 20px;}
-  
