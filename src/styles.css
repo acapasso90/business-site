@@ -243,7 +243,9 @@ font-size: 24px;}
   margin-top: 20px;}
 
 .portfolio {position: relative;
-top: 80px;}
+top: 85px;
+left: 65px; 
+}
 .right {float: right;
   height: 0px;}
 

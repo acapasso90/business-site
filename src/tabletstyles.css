@@ -267,7 +267,8 @@ text-align: center;}
     margin-top: 20px;}
   
   .portfolio {position: relative;
-  bottom: 40px;
+  bottom: 55px;
+  left: 35px;
 }
   .right {float: right;
     height: 0px;}
