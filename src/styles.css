@@ -78,7 +78,7 @@ label {color: #434e43;}
   max-width: 700px;
   height: 100%;
 position: relative;
-right: 150px;
+right: 180px;
 top: 170px; 
 text-align: left;
 font-family: 'Amiri', serif;
@@ -129,13 +129,13 @@ right: 75px;}
 
 .backdrop3 {background-color:#f1f1f1;
   opacity: 85%;
-  min-width: 740px;
-  max-width: 800px;
-  min-height: 380px;
+  min-width: 820px;
+  max-width: 820px;
+  min-height: 395px;
   z-index: -1;
-  position: relative;
-right: 160px;
-bottom: 190px;
+  position: absolute;
+right: 165px;
+bottom: 215px;
 }
 .backdrop4 {background-color:#f1f1f1;
   opacity: 70%;
@@ -188,7 +188,11 @@ text-align: center;}
 
 .card-title {margin-top: 15px;
   color: #a34f3a;}
-  
+
+  .hidden{opacity: 0%;
+  font-weight: bold;
+font-size: 18px;}
+
   .inputs {
     max-width: 100%;
     min-width: 80%;
@@ -253,19 +257,38 @@ left: 65px;
     top: 190px;
   text-align: center;
   font-family: 'Amiri', serif;
-  margin-left: 40px;}
+  margin-left: -15px;}
 
   .skills h2 {  color:#743631;
     font-weight: bolder;
   position: relative;
-left: 35px;
-bottom: 20px;}
+left: 50px;
+bottom: 22px;}
 
     .skills i {font-size: 34px;
+      margin-bottom: 25px;
       margin-right: 35px;
   margin-left: 35px;}
 
-  .skills #row1 {margin-bottom: 25px;
+  #icon1:hover {font-size: 40px;
+    margin-right: 30.5px;
+    margin-bottom: 18px;
+  margin-left: 34.75px;}
+
+#icon2:hover {font-size: 40px;
+  margin-right: 30px;
+  margin-bottom: 18px;
+margin-left: 34.75px;}
+
+#icon3:hover {font-size: 40px;
+  margin-right: 28.5px;
+margin-left: 34.75px;}
+
+  .skills label {position: absolute;
+  margin-top: -30px;
+}
+
+  .skills #row1 {
     margin-left: 100px;
   }
   
