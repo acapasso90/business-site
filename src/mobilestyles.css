@@ -83,12 +83,12 @@ label {color: #434e43;}
 
         .backdrop3 {background-color:#f1f1f1;
             opacity: 83%;
-            min-width: 380px;
-            max-width: 380px;
+            min-width: 400px;
+            max-width: 400px;
             min-height: 320px;
             z-index: -1;
             position: absolute;
-          bottom: 340px;
+          bottom: 210px;
           }
 
     .backdropFooter {background-color: #f1f1f1;
