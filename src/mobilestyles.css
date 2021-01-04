@@ -88,7 +88,8 @@ label {color: #434e43;}
             min-height: 320px;
             z-index: -1;
             position: absolute;
-          bottom: 210px;
+          bottom: 225px;
+          left: 20px;
           }
 
     .backdropFooter {background-color: #f1f1f1;
