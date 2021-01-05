@@ -14,7 +14,7 @@ body {background: url('../media/dicky-satria-F1K6ssl-7Kc-unsplash.jpg');
   background-attachment: fixed;
   background-color: #f1f2f4;
 background-position-x: right;
-max-height: 900px;
+max-height: 100vh;
 color: #394222;
 margin: 0;
 font-family: 'Roboto', sans-serif;}
@@ -303,7 +303,7 @@ margin-left: 34.75px;}
       max-height: 180px;}
       
       .weatherAppPic:hover {filter: grayscale(100%);
-        opacity: 0.2;
+        opacity: 60%;
         cursor: pointer;
       }
 
