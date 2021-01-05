@@ -13,7 +13,8 @@ a, a:visited {color:#1a6622;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #f1f2f4;
-  background-position-x: right;
+  background-position-x: 300px;
+  background-size: 800px 1024px;
   max-height: 770px;
   color: #394222;
   margin: 0;
@@ -22,7 +23,7 @@ a, a:visited {color:#1a6622;
   button {
     background-color: #f1f1f1;
   margin-left: 620px;
-  border-radius: 8px;
+  border-radius: 4%;
   padding: 12px 21px;
   color: #1a6622;
   border: 2px solid #629e54;
@@ -130,15 +131,6 @@ a, a:visited {color:#1a6622;
   top: 150px;
   right: 7px;}
   
-  .backdrop2 {background-color: #e7ac94;
-    opacity: 50%;
-    max-width: 550px;
-    min-height: 42px;
-    z-index: -1;
-    position: relative;
-    bottom: 20px;
-  right: 75px;}
-  
   .backdrop3 {background-color:#f1f1f1;
     opacity: 78%;
     min-width: 740px;
@@ -167,8 +159,8 @@ a, a:visited {color:#1a6622;
   position: relative;
   letter-spacing: .5px;
   font-weight: bolder;
-  right: 70px;
-  bottom: 60px;
+  right: 130px;
+  bottom: 20px;
   white-space: nowrap;}
 
 
@@ -250,6 +242,8 @@ text-align: center;}
     color: #bd634c; 
     font-family: 'Crimson Text', serif;
     letter-spacing: 13px;
+    position: relative;
+    right: 60px;
     text-shadow:
     1px 1px 0px #882d16,
    3px 1px 0px #882d16,
@@ -259,7 +253,10 @@ text-align: center;}
     3px 3px 5px #a3a5bd,
     0px 0px 15px #e0c3ee;
     white-space: nowrap;
-    }
+    animation: 3s appear normal;
+  }
+
+  @keyframes appear {from {margin-left: -50px; opacity: 0%; letter-spacing: 6px;} to {margin-left: 0; opacity: 100%}}
   
   .navbar {padding-top: 75px;}
   

@@ -1,7 +1,7 @@
 var text = ["React.js", "JavaScript", "Responsive Web Design", "CSS",  "Front-end Web Developer based in CT", "HTML"];
 var counter = 0;
 var basedIn = document.querySelector(".basedIn");
-setInterval(change, 2000);
+setInterval(change, 2800);
 function change() { w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
     var targetWidth = 430;
     if ( w <= targetWidth) {basedIn.innerHTML = text[counter];
