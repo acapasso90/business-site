@@ -244,8 +244,10 @@ font-size: 17px;}
 
 .portfolio .flex-row {display: flex;
 flex-direction: column!important;
-margin-top: 40px;}
+margin-top: 0px;}
 
+.portfolio { position: relative;
+top: 40px;}
 .skills {position: relative;
   bottom: 120px;
  text-align: left;
@@ -295,8 +297,6 @@ margin-top: -26px;
           opacity: 0.2;
           cursor: pointer;
         }
-  
-
 
   
   .weatherAppVanilla {padding-bottom: 20px;}
