@@ -264,7 +264,8 @@ text-align: center;}
     position: fixed;
   max-width: 100%;
   max-height: 100%;
-  font-size: 24px;}
+  font-size: 24px;
+  user-select: none;}
   
   .nextPage {text-align: center; 
     margin-top: 20px;}
