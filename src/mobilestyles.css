@@ -57,6 +57,10 @@ footer {
     
 label {color: #434e43;}
 
+::selection{background-color:#145e02;
+  color: #ffff;}
+
+  
     .aboutMe p {
         margin: 0px 5px;
         max-width: 400px;
@@ -77,6 +81,7 @@ label {color: #434e43;}
       max-height: 235px;
       filter: grayscale(25%);
       border: 2px solid #4F5748;
+      user-select: none;
       }
 
 
@@ -233,7 +238,8 @@ margin-left: -26px;}
 
 .navbarLinks {margin-top: 2px;
     margin-left: -4px;
-font-size: 17px;}
+font-size: 17px;
+user-select: none;}
 
 .monogramLogo {max-width: 25px;
     max-height: 25px;
