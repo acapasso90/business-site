@@ -2,65 +2,237 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="src/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;500&family=Rock+Salt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.0/devicon.min.css">
     <title>Capasso Codes</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/03f65086b9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" media="screen and (min-width: 1px) and (max-width: 430px)" href="src/mobilestyles.css">
-    <link rel="stylesheet" media="screen and (min-width: 431px) and (max-width: 1024px)" href="src/tabletstyles.css">
-    <link rel="stylesheet" media="screen and (min-width: 1025px) and (max-width: 2400px)" href="src/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Roboto&&family=Amiri&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar fixed-top nav navbar navbar-light shadow-sm" style="background-color: #F1F1F1;" style="position: fixed;">    
     <div class="container">
-      <span class="navbarLinks">
-      <div class="d-flex flex-row">
-          <div class="col-md">
-            <img src="media/small AC.png" alt="monogram" 
-      width="55" height="55" class="monogramLogo"/></div>
-      <div class="col-md">
-            <a  href="home.html" class="active">Home</a>
-          </div>
-          <div class="col-md">
-            <a href="about.html">About</a>
+      <a id="header"></a>
+        <div class="nav">
+          <div class="navRow">
+            <img src="media/logothick.png" class="monogram" alt="monogram">
+            <div class="dropdown show" >
+              <a  href="#" role="button" class="hamburgerDropDown" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+              </a>
+              <div class="dropdown-menu" id="hamburgerMenu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#header">Home</a>
+                <a class="dropdown-item" href="#about">About</a>
+                <a  class="dropdown-item" href="#portfolio" style="margin-bottom: 4px;">Portfolio</a>
+                <div class="dropleft show" id="dropRight">
+                  <a  href="#" role="button"  class="hamburgerContact" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Contact
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#contact" id="mobileContactItem">Request a quote</a>
+                    <a class="dropdown-item" href="#footer"  id="mobileContactItem">Links</a>
+                  </div>
               </div>
-          <div class="col-md">
-            <a href="portfolio.html">Projects</a>
+            </div>
           </div>
-          <div class="col-md">                
-            <a href="contact.html">Contact</a>
-          </div>
-        </div>
-       </div>
-     </span>
-  </nav>
-<div class="homepage">
-<div class="container">
-        <br />
-        <h4>
-          <div class="backdropFooter"></div>
-          <p>
-         <span class="name">
-        Amanda Capasso </span>
-        <div class="basedIn">Front-end Web Developer based in CT
-        </div>
-     </p>
-        </h4>
+            <a href="#header" class="navLinks">Home</a>
+            <a href="#about" class="navLinks">About</a>
+            <a href="#portfolio" class="navLinks">Portfolio</a>
+            <div class="dropdown show">
+              <a  href="#" role="button" class="navLinks" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Contact
+              </a>
+              <div class="dropdown-menu" id="dropdownMenu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#contact">Request a quote</a>
+                <a class="dropdown-item" href="#footer">Links</a>
+              </div>
+            </div>
       </div>
-        <footer>
-          <div class="icons">
-            <a href="mailto: capassocodes@gmail.com" class="footerLink" target="_blank"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/acapasso90" class="footerLink"  target="_blank">
-              <i class="fab fa-github-square"></i></a>
-              <a href="https://www.linkedin.com/in/amanda-capasso-5926881b3" class="footerLink"  target="_blank">
-                  <i class="fab fa-linkedin"></i></a>
-                  <a href="https://codepen.io/acapasso" class="footerLink" target="_blank"><i class="fab fa-codepen"></i></a>
+    </div>
+        <div class="header">
+          <header>
+          </header>
+            <div class="myName">Amanda Capasso</div>
+            <a id="about"></a>
+            <div class="basedIn" >Front-end Developer based in CT</div>
+          </div>
+        <div class="aboutMe">
+          <h1 class="headers" id="aboutHeader">About Me</h1>
+          <div class="row">
+            <div class="col-6">
+            <img src="media/aboutMe.jpg" loading="lazy" alt="Amanda&Wyatt" class="aboutMePhoto"></div>
+            <div class="col-6" id="aboutMeText">
+            <p> Amanda is a SheCodes Alumni with a background in E-commerce. Always commited to writing clean code,
+              she enjoys working on everything from desiging and building repsonsive websites for small business to developing interactive apps. 
+              When away from her keyboard, Amanda can often be found baking up a storm in her kitchen, enjoying time outside working in her garden, 
+              or exploring nature with her dog Wyatt.  
+            </p>
+          </div>
+          </div>
+        </div>        
+      </div>
+              <div class="currentlyUtilizing">
+                <h1  class="headers" id="utilizingHeader">Currently Utilizing</h1>
+                <div class="row" id="row1">
+              <label class="hidden" id="html" style="margin-left: 19px">HTML5</label>
+              <i class="fab fa-html5" id="icon1" style="color: #E96228"></i>
+              <label class="hidden" id="css"style="margin-left: 29px">CSS3</label>
+              <i class="fab fa-css3-alt"  id="icon1" style="color: #146EB0"></i>
+              <label class="hidden" id="javascript" style="margin-left: 12px">JavaScript</label>
+              <i class="fab fa-js-square" id="icon2" style="color: #DF9E28"></i>
+              <label class="hidden" id="react" style="margin-left: 31.5px">React</label>
+              <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i>
+                </div>
+          <div class="row" id="row2">
+            <span class="keepinline">
+              <label class="hidden" id="github" style="margin-left: 23px">GitHub</label>
+              <i class="fab fa-github-square" id="icon2" style="color: #000000"></i>
+              <label class="hidden" id="bootstrap" style="margin-left: 16px">Bootstrap</label>
+              <i class="fab fa-bootstrap" id="icon2" style="color: #533B78"></i>
+              <label class="hidden" id="npm" style="margin-left: 39px">npm</label>
+              <i class="fab fa-npm" id="icon3" style="color: #CE0000"></i>
+              <a id="portfolio"></a>
+              <label class="hidden"  id="visualstudiocode" style="margin-left: -12px;">Visual Studio Code</label>
+              <i class="devicon-visualstudio-plain" id="icon3" style="color: #613790"></i>
+            </span>
+            </div>
+            </div>          </div>
+
+        <div class="portfolio">
+          <h1 class="headers" id="portfolioHeader">Portfolio</h1>
+        <div class="projects">
+
+          <div id="mycarousel" loading="lazy" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+            <ol class="carousel-indicators">
+              <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#mycarousel" data-slide-to="1"></li>
+              <li data-target="#mycarousel" data-slide-to="2"></li>
+              <li data-target="#mycarousel" data-slide-to="3"></li>
+              <li data-target="#mycarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media/newHorizons.png"  class="card-img-top" alt="newHorizonsApp">
+                <div class="carousel-caption d-md-block">
+                  <div class="backdrop">
+                <a href="https://kind-hoover-e218cf.netlify.app/" 
+                target="_blank" > <h3>New Horizon's Critterpedia</h3></a>
+                <h4>React
+                <a href="https://github.com/acapasso90/newhorizonscritterpedia" target="_blank" class="iconLink">
+                  <i class="fab fa-github-square"></i></a></h4> </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/reactWeather.png" class="card-img-top" alt="reactWeatherApp">
+                <div class="carousel-caption  d-md-block"> 
+                  <div class="backdrop">
+                  <a href="https://thirsty-varahamihira-c33300.netlify.app/" 
+                  target="_blank" ><h3>React Weather App</h3></a>
+               <h4>React<a href="https://github.com/acapasso90/react-weatherapp" target="_blank" class="iconLink">
+                <i class="fab fa-github-square"></i></a></h4> 
+              </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/kkSlider.png" class="card-img-top" alt="kkSlider">
+                <div class="carousel-caption  d-md-block">  
+                  <div class="backdrop">
+                  <a href="https://determined-lamarr-edc795.netlify.app/" 
+                target="_blank" ><h3>K.K. Slider JukeBox</h3></a>
+                <h4>React<a href="https://github.com/acapasso90/kkslider" target="_blank" class="iconLink">
+                  <i class="fab fa-github-square"></i></a></h4> 
+                </div>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/weatherApp.png" class="card-img-top" alt="kkSlider"> 
+                <div class="carousel-caption d-md-block">
+                  <div class="backdrop">
+                <a href="https://nifty-almeida-22d8a8.netlify.app/" 
+                target="_blank" ><h3>Weather App</h3></a>
+                <h4>Vanilla JavaScript<a href="https://github.com/acapasso90/weatherapp" target="_blank" class="iconLink">
+                  <i class="fab fa-github-square"></i></a></h4> 
+                </div>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/christmasDiv.png" class="card-img-top" alt="kkSlider">
+                <div class="carousel-caption d-md-block">
+                  <div class="backdrop">
+                <a href="https://codepen.io/acapasso/pen/WNGeOrR" 
+                target="_blank" ><h3>Animated Div Art</h3> </a>
+                <h4>CSS & Vanilla JavaScript<a href="https://github.com/acapasso90/Codepen-Unity-Challenge" target="_blank" class="iconLink">
+                  <i class="fab fa-github-square"></i></a></h4>
+                </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#mycarousel" role="button" id="previous" data-bs-slide="prev">
+              <i class="fas fa-angle-left"></i>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mycarousel" id="next" role="button" data-bs-slide="next">
+          <i class="fas fa-angle-right"></i>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
           </div>
         </div>
-        </footer>
+        </div>
+        
+        <a id="contact"></a>
+    <div class="contact">
+          <h1 class="headers" id="contactHeader">Contact Me</h1>
+      <form action="https://formsubmit.co/capassocodes@gmail.com" method="post" class="inputBars">
+        <input type="hidden" name="_honey" style="display:none">
+        <input type="hidden" name="_to" value="capassocodes@gmail.com" />
+    <div class="form-row">
+      <label for="nameSubmit" class="nameLabel">First Name</label>
+      <label for="nameSubmit" class="nameLabel" id="lastNameLabel">Last Name</label>
+    </div>
+        <div class="form-row">
+          <textarea class="form-control"  id="firstnameSubmit" rows="1"  placeholder="First Name" autocomplete="off" name="First Name" required></textarea>
+          <textarea class="form-control"  id="lastnameSubmit" rows="1" placeholder="Last Name" autocomplete="off" name="Last Name" required></textarea>
       </div>
-<script src="src/app.js"></script>
-<script src="src/indexmobileapp.js"></script>
-</body>
+      <div class="form-row">
+        <label for="emailSubmit">Email address</label>
+        <label for="nameSubmit" class="companyLabel">Company</label>
+      </div>
+      <div class="form-row">
+        <input type="email" class="form-control" id="emailSubmit" placeholder="myemail@example.com" name="email" autocomplete="off" required>
+      <textarea class="form-control" id="companySubmit" rows="1"  placeholder="(if applicable)" autocomplete="off" name="Company"></textarea>
+    </div>
+        <div class="form-group">
+          <label for="summary">Brief summary of the project</label>
+          <textarea class="form-control" id="summary" rows="4" autocomplete="off" name="summary" placeholder="(Ex. 4 page business site for a painting company)" required></textarea>
+        </div>
+      <button type="submit" class="submitButton">Submit</button>
+      </form>
+    </div>
+    <a id="footer"></a>
+    <div class="footer">
+      <footer></footer>
+    <div class="contactLinks">
+      <h2>Amanda Capasso</h2>
+      <form action="mailto: capassocodes@gmail.com"  target="_blank">
+      <button>Email <i class="fas fa-envelope"></i></button></form>
+      <form action="https://www.linkedin.com/in/amanda-capasso-5926881b3"  target="_blank">
+        <button>  LinkedIn <i class="fab fa-linkedin"></i></button></form>
+        <form action="https://github.com/acapasso90"  target="_blank">
+          <button>  GitHub <i class="fab fa-github-square"></i></button></form>
+          <form action="https://codepen.io/acapasso"  target="_blank">
+            <button>  CodePen <i class="fab fa-codepen"></i></button></form>
+            <form action="https://twitter.com/acapasso2"  target="_blank">
+              <button>  Twitter <i class="fab fa-twitter-square"></i></button></form>
+  </div>
+
+    </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src = "src/app.js"></script>
+      </body>
 </html>

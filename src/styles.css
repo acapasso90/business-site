@@ -1,314 +1,699 @@
-a, a:visited {color:#1a6622;
-  transition: all 100ms ease-in-out;
-}
+body {width: 100vw;
+    font-family: 'Bitter', serif;
+    overflow-x: hidden;
+background-color: #DCE1ED;
+color: #2B3039;}
 
-a:hover {
-color: #441900; 
-cursor: default;
-  text-decoration: none;
-}
+a {text-decoration: none;
+    color: #000000;}
 
+a:hover {color: #494f6e;}
 
-body {background: url('../media/dicky-satria-F1K6ssl-7Kc-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #f1f2f4;
-background-position-x: right;
-max-height: 100vh;
-color: #394222;
-margin: 0;
-font-family: 'Roboto', sans-serif;}
-
-button {
-  background-color: #f1f1f1;
-margin-left: 620px;
-border-radius: 4%;
-padding: 12px 21px;
-color: #1a6622;
-border: 2px solid #629e54;
-box-shadow: 1px 1px 3px 2px #9aca8e;
-font-weight: 800;
-transition: all 100ms ease-in-out;}
-
-
-button:hover {background-color:#f3ddbc;
-color: #143806;
-font-size: 16.5px;
-padding: 11.5px 20.5px;
-box-shadow: 1px 1px 3px 3px #9aca8e;
-font-weight: 1000;
-box-shadow: 1px 1px 3px 2px #0f4b00;}
-
-
-
-footer {
-  position: fixed;
-  bottom: 5px;
-  left: -330px;
-    width: 50%;
+ button {
+    padding: 8px 18px;
+    border-radius: 3px;
     font-size: 18px;
-  text-align: center;
-  white-space: nowrap;
-  }
-  
+    border: 2px solid #3b3939;}
 
-h4 {padding: 100px 0 0 160px;}
+form {margin-left: auto;
+    padding: 10px 15px 70px 15px;
+    border-radius: 2px;
+margin-right: auto;
+background-color: #E7ECF1;
+width: 800px;}
 
-h4 p {padding-top: 100px;
-  font-family: 'Crimson Text', serif;
-}
-
-
-
-html{
-  width:100%;
-  max-height: 100%;
-  min-width: 1100px;
-}
+footer {width: 100%;
+    height: 500px;
+background-size: 100% 500px;
+z-index: -2;
+opacity: 75%;
+background-image: url(../media/cakeFooter.jpg);}
 
 
-
-img {
-  max-width: 100%;}
-  
-
-label {color: #434e43;}
-
-
-.aboutMe p {
-  max-width: 700px;
-  height: 100%;
-position: relative;
-right: 240px;
-top: 185px; 
-text-align: left;
-font-family: 'Amiri', serif;
-font-size: 24px;}
-
-::selection{background-color:#145e02;
-  color: #ffff;}
-
-.aboutMePhoto img {
-  margin: 160px 0 0 180px;
-border-radius: 50%;
-max-width: 325px;
-max-height: 325px;
-filter: grayscale(25%);
-border: 2px solid #4F5748;
-user-select: none;
-}
-
-.active {color: #9C534E;
-  cursor: default;
-text-decoration: none;}
-
-.active:hover {text-decoration: none;
-  cursor: default;
-  color: #8c9ebe;}
-
-  .active:visited {color: #9C534E;
-      cursor: default;
-  text-decoration: none;}
-
-
-.backdrop {background-color: #f1f1f1;
+header {background-image: url(../media/codeHeader.jpg);
+    background-repeat: no-repeat;
+ width: 105%;
+ min-width: 105%;
+ max-width: 105%;
 opacity: 70%;
-max-width: 520px;
-min-height: 60px;
-padding: 0;
-z-index: -1;
-position: relative;
-top: 150px;
-right: 7px;}
+position: absolute;
+top: 85px;
+left: 0px;
+min-height: 100%; 
+background-size: 100% 520px;
+box-shadow: 0px 4px 5px #a0a0a0;}
+
+label { font-size: 17pt!important;
+    white-space: nowrap;
+user-select: none;}
+
+    ::selection{background-color:#555D70;
+        color: #ffff;}
+
+#html {position: relative;
+left: 8.2%;}
+#css {position: relative;
+    left: 8.7%;}
+#javascript {position: relative;
+left: 7.5%;}
+
+#react {position: relative;
+left: 9%;}
+
+#github {position: relative;
+left: 10.5%;}
+
+#bootstrap {position: relative;
+left: 9.6%;}
+
+#npm {position: relative;
+left: 11.9%}
+
+#visualstudiocode {position: relative;
+left: 6%;}
+
+#previous i, #next i {font-size: 70pt;
+color: #62686e;
+text-shadow: 2px 2px 5px #504545;}
+
+#row2 i {margin-left: 9%;
+margin-right: 9%;
+display: flex;}
+
+
+#row2 {padding-right: 130px;
+padding-bottom: 30px;}
+
+#portfolio {position: absolute;}
+#row2 label {
+margin-top: -35px!important;}
+
+#summary {width: 760px;
+resize: vertical;}
+
+.aboutMe {margin-top: 60px;
+    margin-bottom: 130px;}
+
+    .aboutMe p {margin-right: 2%;
+        margin-top: 10%;
+        padding-left: 20px;
+    font-size: 20px;}
+
+.aboutMe .row {background-color: #E7ECF1;
+max-width: 1100px;
+padding: 12px 0;
+margin-left: auto;
+margin-right: auto;}
+
+.aboutMePhoto {width: 450px;
+    max-width: 500px!important;
+    border: 2px solid #d1c4c4;
+    border-radius: 2px;
+    user-select: none;
+margin-left: 2%;}
 
 
 
-.backdrop3 {background-color:#f1f1f1;
-  opacity: 85%;
-  min-width: 820px;
-  max-width: 820px;
-  min-height: 395px;
-  z-index: -1;
 
-  position: absolute;
-right: 185px;
-bottom: 215px;
+.basedIn {white-space: nowrap;
+    z-index: 4;
+    opacity: 0%;
+font-size: 35pt;
+animation: fadeIn 3s normal;
+animation-fill-mode: forwards;
+animation-delay: 3.4s;}
+
+.headerShown {animation: appear 3s normal;
+    animation-fill-mode: forwards;}
+
+.carousel {width: 1200px;
+    user-select: none;
+    height: 500px}
+    .carousel img {max-width: 1300px;
+        max-height: 60%;
+    min-height: 60%}
+ 
+    
+        .carousel-caption {width: 360px;
+            white-space: nowrap;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        margin-bottom: -1%;
+        font-weight: bold;
+    color: #313547;}
+
+        .carousel-caption a {color: #000000; }
+
+        .carousel-caption a:hover {color: #6D759B;}
+        .carousel-caption .backdrop {width: 100%;
+        height: 100%;
+    background-color: #bebaba;
+opacity: 92%;}
+
+.carousel-control-prev {position: absolute;
+    left: -5%;}
+    .carousel-control-next {position: absolute;
+        right: -5%;}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {height: 76px!important;}
+
+.carousel-indicators li {background-color: #4b6b6b;
+width: 60px;}
+
+.carousel-indicators {position: absolute;
+bottom: -22%;}
+
+.container {min-width: 100%!important;
+    max-width: 100%;
+padding: 0px!important;
+margin: 0px!important;}
+
+.contact {margin-top: 150px;
+max-width: 100%;
+justify-content: center;
+background-color: #d0d8eb;
+padding-top: 20px;
+padding-bottom: 100px;
+box-shadow:
+0px 1px 10px #a0a0a0;}
+
+.contact button {
+position: absolute;
+margin-top: 10px;
+left: 68.1%;
+background-color: #EEF0F0;
+    color: #3b3939;
 }
 
-.backdrop4 {background-color:#f1f1f1;
-  opacity: 70%;
-  min-width: 880px;
-  max-width: 900px;
-  min-height: 420px;
-  position: absolute;
-  z-index: -1;
-  left: 150px;
-  bottom: 140px;
+.contact button:hover {background-color: #484E57;
+color:  #EEF0F0}
 
- }
+.contactLinks button {background-color: #4a505a;
+color:  #EEF0F0;
+border: 2px solid #546072;}
 
-.basedIn {font-size: 34px;
-  font-family: 'Amiri', serif;
-color: #4e533d;
-position: relative;
-letter-spacing: .5px;
-font-weight: bolder;
-right: 70px;
-bottom: 20px;
+.contactLinks button:hover {background-color: #EEF0F0;
+color: #4a505a;}
+.submitButton:active {margin-top: 12px;}
+
+.contactLinks button:active {margin-top: 2px;
+animation: footerbuttonActive .5s normal;
+outline:none;
+margin-bottom: 18px;}
+.contact button:active {
+animation: buttonActive .5s normal;
+outline:none;}
+
+
+
+.contactLinks {
+    user-select: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    bottom: 490px;
+}
+
+.contactLinks button {width: 140px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
 white-space: nowrap;}
 
-.col- {max-height: 380px;}
+.contactLinks i {font-size: 22px;}
 
-.col-md {margin-left: 20px;}
+.contactLinks form {padding: 0px;
+width: 140px;
+background-color: transparent;}
 
-.container {margin-left: 0;}
-
-.contactHeader h1 {font-family: 'Crimson Text', serif;
-padding: 150px 0 0 140px;
-display: inline-block;
-color: #9C534E;
-z-index: 1;}
-
-  
-.contactLinks {position: absolute;
-  left: 120px;
-  min-width: 135px;
-  max-width: 135px;
-  bottom: 268px;
-  white-space: nowrap;
-}
-
-.card {max-height: 290px;
-margin-left: 110px;
-margin-top: 30px;
-text-align: center;}
-
-
-.card-title {margin-top: 15px;
-  color: #a34f3a;}
-
-  .hidden{opacity: 0%;
-  font-weight: bold;
-font-size: 18px;}
-
-  .inputs {
-    max-width: 100%;
-    min-width: 80%;
-  margin-top: 10px;
-  padding-left: 280px;
-margin-right: 20px;}
-
-.left {float: left;}
-
-
-.list-group-item:hover {cursor: pointer;
-  color: #000000; }
-
-  .list-group-item:active, .list-group-item {color: #1a6622;
-  text-align: center;
-  padding: 12px 25px;}
-
-  .monogramLogo {margin-left: 5px;
-    max-width: 55px;
-  min-width: 55px;
-  min-height: 55px;
-  max-height: 55px;
+.contactLinks h2 {margin-bottom: 30px;
     position: relative;
-    bottom: 32px;
-    border-radius: 5px;
-  box-shadow: 0px 0px 7px #c5afa5;}
+    bottom: 7px;
+    mix-blend-mode: overlay;
+    color: #e9e9e9;
+    margin-top: 5px;
+font-size: 4.4vw;
+letter-spacing: 3vw;
+text-shadow: 1px 1px 1px #333232;
+font-family: 'Rock Salt', cursive;}
 
-.name {font-size: 54px;
-  color: #bd634c; 
-  font-family: 'Crimson Text', serif;
-  letter-spacing: 13px;
-  text-shadow:
-  1px 1px 0px #882d16,
- 3px 1px 0px #882d16,
-  1px -1px 0px #882d16,
-  -1px 1px 0px #882d16,
-  -1px -1px 0px #882d16,
-  3px 3px 5px #a3a5bd,
-  0px 0px 15px #e0c3ee;
-  white-space: nowrap;
-  animation: 3s appear normal;
-  }
 
-  @keyframes appear {from {margin-left: -50px; opacity: 0%; letter-spacing: 6px;} to {margin-left: 0; opacity: 100%}}
 
-.navbar {padding-top: 75px;}
-
-.navbarLinks {margin-top: 20px;
-  position: fixed;
-max-width: 100%;
-max-height: 100%;
-font-size: 24px;
-user-select: none;}
-
-.nextPage {text-align: center; 
-  margin-top: 20px;}
-
-.portfolio {position: relative;
-top: 85px;
-}
-.right {float: right;
-  height: 0px;}
-
-  .skills {position: relative;
-    top: 210px;
-  text-align: center;
-  font-family: 'Amiri', serif;
-  margin-left: -55px;
-width: 500px;}
-
-  .skills h2 {  color:#743631;
-    font-weight: bolder;
-  position: relative;
-left: 160px;
-bottom: 22px;
-user-select: none;}
-
-    .skills i {font-size: 34px;
-      margin-bottom: 25px;
-      margin-right: 35px;
-  margin-left: 35px;}
-
-  #icon1:hover {font-size: 40px;
-    margin-right: 30.5px;
-    margin-bottom: 18px;
-  margin-left: 34.75px;}
-
-#icon2:hover {font-size: 40px;
-  margin-right: 30px;
-  margin-bottom: 18px;
-margin-left: 34.75px;}
-
-#icon3:hover {font-size: 40px;
-  margin-right: 28.5px;
-margin-left: 34.75px;}
-
-  .skills label {position: absolute;
-  margin-top: -26px;
-}
-
-  .skills #row1 {
-    margin-left: 100px;
-  }
-  
-  .skills #row2 {margin-left: 40px;}
-
-  .text-muted {color: #1e8105!important;
-}
     
 
-    .weatherAppPic {transition: all 100ms ease-in-out;
-      border-radius: 4px;
-      max-height: 180px;}
-      
-      .weatherAppPic:hover {filter: grayscale(100%);
-        opacity: 60%;
-        cursor: pointer;
-      }
+.contact .nameLabel {margin-right: 34%;}
+
+.companyLabel {margin-left: 29.5%;}
+
+.currentlyUtilizing i {font-size: 3vw;
+    margin-bottom: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+max-width: 20px!important;}
+
+.currentlyUtilizing i:hover {font-size: 4vw;
+    margin-bottom: 10px;
+    margin-top: 0px;
+max-width: 10px!important;}    
+
+.currentlyUtilizing #row2 i:hover {font-size: 4vw;
+    margin-right: 9.8%;
+max-width: 10px!important;} 
+
+.currentlyUtilizing .headers {margin-top: 20px;
+margin-bottom: 35px;}
+
+.currentlyUtilizing label {max-width: 30px!important;
+    margin-bottom: 5%;}
+
+.currentlyUtilizing #row2 {position: relative;
+    right: 20px;}
+
+.currentlyUtilizing {
+    background-color: #d0d8eb;
+    margin-bottom: 140px;
+    max-width: 100%;
+padding-top: 20px;
+box-shadow: 0px -1px 10px #a0a0a0,
+0px 1px 10px #a0a0a0;}
+
+.currentlyUtilizing .row {display: flex;
+align-items: flex-end;
+margin-bottom: 3%;
+justify-content: flex-end;
+padding-right: 80px;
+}
+
+.container, .currentlyUtilizing {overflow-x: hidden;}
 
 
-.weatherAppVanilla {padding-bottom: 20px;}
+#dropdownMenu {left: -55%;}
+.dropdown:hover > .dropdown-menu {
+    display:block;
+    top: 32px;
+  }
+.dropdown > .dropdown-menu {
+    display:none;
+  }
+
+  .dropdown-item {width: 250px}
+
+  .dropdown i {font-size: 50px;
+padding-bottom: 15px;}
+
+
+    #dropRight .dropdown-menu {border: none;
+    margin-left: -38.8%;
+margin-top: 10%;}
+
+.footer {max-height: 500px;
+    overflow: hidden;
+    max-width: 100%;
+    box-shadow: 0px -4px 5px #a0a0a0;
+}
+
+.form-control {width: 400px;
+    resize: none;
+margin-bottom: 20px;
+margin-left: 5px;
+margin-right: 5px;}
+
+.form-row {display: flex;}
+
+.hamburgerContact {padding-left: 15px;
+    padding-top: 4px;}
+
+
+    #mobileContactItem {padding-left: 10%;}
+.header { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 0px;
+    width: 100%;
+    min-width: 400px;
+    height: 530px;
+    z-index: -1!important;
+}
+
+.header .content { width : 100%;}
+
+.headers {font-family: 'Rock Salt', cursive;
+    opacity: 0%;
+    font-size: 4.2vw;
+    user-select: none;
+    text-align: left;
+    white-space: nowrap;
+    margin-bottom: 80px;
+padding-right: 30px;}
+
+#aboutHeader {margin-left: 75%;}
+
+#utilizingHeader {margin-left: 46%;}
+
+#portfolioHeader {margin-left: 70%;
+margin-top: 10px;}
+
+#contactHeader {margin-left: 65%;}
+
+.keepinline {display: flex;
+    flex-direction: row;
+  width: 100%;
+position: relative;
+left: 9%;
+top: -5%;
+height: 100px;}
+
+.hidden{opacity: 0%;
+    font-weight: bold;
+  font-size: 22px;}
+
+
+  .monogram {max-height: 80px;
+margin-left: 10px;
+margin-right: 7%;}
+
+.myName, .basedIn {padding-right: 20px;
+user-select: none;}
+
+.myName {text-align: right; 
+    mix-blend-mode: overlay;
+color: #cdf3da;
+font-family: 'Rock Salt', cursive;
+font-size: 5vw;
+    position: relative;
+    top: 35px;
+    left: 12%;
+    white-space: nowrap;
+    transform: scale(1.2);
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    padding-left: 15px;
+    letter-spacing: 2.29vw;
+    animation: appearNoFade 3.4s normal;}
+
+
+
+
+.nav {   width: 100%;
+    height: 85px;
+}
+
+.navLinks {position: relative;
+right: 100px;}
+.navRow {
+    box-shadow: -4px 0px 10px #a0a0a0;
+    z-index: 9;
+    user-select: none;
+    display: flex;
+    background-image: url(../media/marble.png);
+    background-color: #DCE1ED;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 85px;
+    margin-right: 25px;
+    position: fixed;
+    z-index: 5;
+}
+
+.navRow a {margin-left: 25px;
+margin-right: 25px;
+font-size: 24px;
+text-decoration: none;
+}
+
+.portfolio {position: relative;
+    max-width: 100%;
+bottom: 100px;}
+
+.projects {display: flex;
+justify-content: center;}
+
+.row {display: flex;
+flex-direction: row;}
+
+@media only screen and (max-width: 500px) {
+    header {min-height: 500px;
+    min-width: 100%;
+    right: .5px;}
+
+
+    #lastNameLabel {
+        margin-left: -16%;}
+        .companyLabel {margin-left: 9%;}
+
+    #summary {width: 98%;
+        resize: vertical;}
+
+        #aboutHeader {margin-left: 40%;}
+
+        #utilizingHeader {margin-left: 12%;
+        letter-spacing: -3.5px;
+    font-size: 24pt}
+
+    #contactHeader {margin-left: 22%;}
+
+
+#portfolioHeader {margin-left: 33%;}
+
+.aboutMe {margin-top: 10px;}
+        .carousel {width: 95%;}
+
+        .carousel-indicators {position: absolute;
+            bottom: 48%;}
+
+            .carousel-caption {bottom: -5%;
+                left: 5%;
+            height: 50%;}
+
+            
+            .carousel-caption h3 {font-size: 16pt;}
+
+
+
+        #emailSubmit, #companySubmit {width: 50%;}
+    .aboutMe {
+        margin-bottom: 0px;}
+
+    .aboutMe .row {background-color: #E7ECF1;
+        max-width: 900px;
+        margin-top: -40px;
+        margin-left: auto;
+        margin-right: auto;}
+    
+        .aboutMe p {
+            margin-top: 4%;
+       text-align: left;
+        font-size: 20px;}
+        
+        #aboutMeText {position: relative;
+            width: 100%;}
+        .aboutMePhoto {width: 350px;
+            max-width: 450px!important;
+        margin-left: 8%;}
+
+.basedIn{font-size: 25px;
+    position: relative; top: -38px;}
+
+
+    form {
+    width: 100%;}
+.carousel-inner, .carousel-item {height: 205px;}
+    .carousel img {max-width: 1300px;
+        max-height: 195px;
+    min-height: 205px;}
+    
+
+    .contactLinks h2 {white-space: nowrap;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    padding-left: 10px
+}
+
+.contactLinks {bottom: 500px;}
+
+
+    .currentlyUtilizing i {font-size: 23pt;
+        margin-bottom: 10px;
+        margin-left: 9%;
+        margin-right: 9%;}
+
+    .currentlyUtilizing i:hover {font-size: 25pt;
+        margin-top: 0px;
+        margin-bottom: 7px;
+    }    
+
+    .currentlyUtilizing .row {display: flex;
+        align-items: flex-end;
+        margin-top: 40px;
+        justify-content: flex-start;}
+
+
+        .currentlyUtilizing .headers {margin-top: 7px;
+            margin-bottom: 5px;}
+
+            .contact button {
+                left: 70%;}
+
+
+.header {    max-width: 401px;}
+
+.headers {font-size: 40px;}
+.contactLinks h2 {font-size: 35px;}
+.myName {
+    position: relative; top: -42px;
+    padding-left: 0px;
+    letter-spacing: 2px;
+    font-size: 7.7vw;
+width: 100%;}
+
+    .monogram {
+        margin-right: 3%;}
+.navRow a {font-size: 22px;
+text-align: left;
+margin-left: 12px;
+margin-right: 12px;}
+.navLinks {display: none;}
+
+.portfolio {max-height: 270px;}
+
+#previous i, #next i  {position: absolute;
+    font-size: 50pt;
+    top: 10%;}
+
+#previous i {left: 30%;}
+
+#next i {right: 30%;}
+
+#row2 i {margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: flex-end;
+padding-left: 58px;}
+
+#row2 i:hover {margin-left: 9%;}
+
+.currentlyUtilizing label {display: none;}
+
+}
+
+
+@media only screen and (max-width: 1025px) and (min-width: 501px) {
+
+    header {min-height: 520px;}
+
+    .footer {
+    overflow: hidden;}
+
+    .carousel {width: 95%;}
+
+    .currentlyUtilizing {width: 100%;}
+
+    .aboutMe .row {background-color: #E7ECF1;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;}
+
+    .aboutMe p {margin-right: 2%;
+        margin-top: 4%;
+        padding-left: 20px;
+    font-size: 20px;}
+    
+    .aboutMePhoto {width: 400px;
+        max-width: 450px!important;}
+
+    
+    .currentlyUtilizing i {font-size: 28pt;
+        margin-left: 6%;
+        margin-right: 6%;}
+
+    .currentlyUtilizing i:hover {font-size: 32pt;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    max-width: 10px!important;}    
+
+    .currentlyUtilizing .row {display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;}
+
+        #dropdownMenu {top: 40px;}
+
+
+    .hamburgerDropDown {display: none;}
+.basedIn {font-size: 27pt;
+    position: relative;
+    top: -15px;}
+.header .myName {font-size: 32pt;
+position: relative;
+top: -5px;}
+
+#row2 i {margin-left: 8%;
+    margin-right: 8%;
+    display: flex;}
+
+    #html {position: relative;
+        left: 7%;}
+        #css {position: relative;
+            left: 7.8%;}
+        #javascript {position: relative;
+        left: 6%;}
+        
+        #react {position: relative;
+        left: 8%;}
+        
+        #github {position: relative;
+        left: 9%;}
+        
+        #bootstrap {position: relative;
+        left: 7.8%;}
+        
+        #npm {position: relative;
+        left: 11.6%}
+        
+        #visualstudiocode {position: relative;
+        left: 3.5%;}
+        
+}
+
+@media (min-width: 1025px){ header {min-height: 550px; background-size: 100% 550px;}
+
+
+.hamburgerDropDown {display: none;}
+
+.carousel img {max-width: 1300px;
+    max-height: 600px;
+min-height: 600px}
+
+}
+
+@keyframes fadeIn {from {opacity: 0%;} to {opacity: 100%}}
+
+@keyframes appear {from {margin-right: -80px; opacity: 0%; letter-spacing: -10px;}
+to {margin-right: 0; opacity: 100%;}}
+
+@keyframes appearNoFade {from {margin-left: -80px; letter-spacing: -20px;}
+to {margin-left: 0;}}
+
+
+@keyframes buttonActive { 0%{background-color: #484E57;
+    color:  #EEF0F0;}
+100% {background-color: #EEF0F0;
+    color: #3b3939;}}
+
+    
+@keyframes footerbuttonActive { 0%{background-color: #EEF0F0;
+    color:  #484E57;}
+100% {background-color: #484E57;
+    color: #EEF0F0;}}
+
+    .dropdown-menu {    background-color: #e9eef3;}
+
+    .dropdown-item:hover {background-color: transparent;
+        color: #494f6e;}
