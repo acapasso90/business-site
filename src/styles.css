@@ -36,10 +36,10 @@ footer {width: 100%;
 background-size: 100% 500px;
 z-index: -2;
 opacity: 75%;
-background-image: url(../media/cakeFooter.jpg);}
+background-image: url(../media/cakeFooter-min.jpg);}
 
 
-header {background-image: url(../media/codeHeader.jpg);
+header {background-image: url(../media/codeHeader-min.jpg);
     background-repeat: no-repeat;
  width: 100%;
  min-width: 100%;
@@ -106,7 +106,7 @@ resize: vertical;}
     margin-bottom: 130px;}
 
     .aboutMe p {margin-right: 2%;
-        margin-top: 10%;
+        margin-top: 8%;
         padding-left: 20px;
     font-size: 20px;}
 
@@ -116,7 +116,7 @@ padding: 12px 0;
 margin-left: auto;
 margin-right: auto;}
 
-.aboutMePhoto {width: 450px;
+.aboutMePhoto {width: 70%;
     max-width: 500px!important;
     border: 2px solid #d1c4c4;
     border-radius: 2px;
@@ -428,7 +428,7 @@ right: 100px;}
     z-index: 9;
     user-select: none;
     display: flex;
-    background-image: url(../media/marble.png);
+    background-image: url(../media/marble-min.jpg);
     background-color: #DCE1ED;
     flex-direction: row;
     justify-content: flex-start;
