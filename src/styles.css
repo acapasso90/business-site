@@ -1,6 +1,15 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {width: 100vw;
+    margin: 0;
+    max-width: 100%;
     font-family: 'Bitter', serif;
-    overflow-x: hidden;
 background-color: #DCE1ED;
 color: #2B3039;}
 
@@ -32,9 +41,9 @@ background-image: url(../media/cakeFooter.jpg);}
 
 header {background-image: url(../media/codeHeader.jpg);
     background-repeat: no-repeat;
- width: 105%;
- min-width: 105%;
- max-width: 105%;
+ width: 100%;
+ min-width: 100%;
+ max-width: 100%;
 opacity: 70%;
 position: absolute;
 top: 85px;
@@ -78,7 +87,9 @@ text-shadow: 2px 2px 5px #504545;}
 
 #row2 i {margin-left: 9%;
 margin-right: 9%;
-display: flex;}
+display: flex;
+max-width: 100%;
+}
 
 
 #row2 {padding-right: 130px;
@@ -210,6 +221,7 @@ outline:none;}
 .contactLinks {
     user-select: none;
     width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -260,7 +272,7 @@ max-width: 20px!important;}
 max-width: 10px!important;}    
 
 .currentlyUtilizing #row2 i:hover {font-size: 4vw;
-    margin-right: 9.8%;
+    margin-right: 9.7%;
 max-width: 10px!important;} 
 
 .currentlyUtilizing .headers {margin-top: 20px;
@@ -281,6 +293,7 @@ box-shadow: 0px -1px 10px #a0a0a0,
 0px 1px 10px #a0a0a0;}
 
 .currentlyUtilizing .row {display: flex;
+max-width: 100%;
 align-items: flex-end;
 margin-bottom: 3%;
 justify-content: flex-end;
@@ -321,7 +334,8 @@ margin-bottom: 20px;
 margin-left: 5px;
 margin-right: 5px;}
 
-.form-row {display: flex;}
+.form-row {display: flex;
+    max-width: 100%;}
 
 .hamburgerContact {padding-left: 15px;
     padding-top: 4px;}
@@ -334,6 +348,7 @@ margin-right: 5px;}
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 0px;
+    max-width: 100%;
     width: 100%;
     min-width: 400px;
     height: 530px;
@@ -361,6 +376,7 @@ margin-top: 10px;}
 #contactHeader {margin-left: 65%;}
 
 .keepinline {display: flex;
+    max-width: 100%;
     flex-direction: row;
   width: 100%;
 position: relative;
@@ -401,6 +417,7 @@ font-size: 5vw;
 
 
 .nav {   width: 100%;
+    max-width: 100%;
     height: 85px;
 }
 
@@ -417,8 +434,8 @@ right: 100px;}
     justify-content: flex-start;
     align-items: flex-end;
     width: 100%;
+    max-width: 100%;
     height: 85px;
-    margin-right: 25px;
     position: fixed;
     z-index: 5;
 }
@@ -434,10 +451,13 @@ text-decoration: none;
 bottom: 100px;}
 
 .projects {display: flex;
+    max-width: 100%;
 justify-content: center;}
 
 .row {display: flex;
+    max-width: 100%;
 flex-direction: row;}
+
 
 @media only screen and (max-width: 500px) {
     header {min-height: 500px;
@@ -513,11 +533,13 @@ flex-direction: row;}
 
     .contactLinks h2 {white-space: nowrap;
     font-size: 20px;
+    position: relative;
+    bottom: -25%;
     letter-spacing: 0.2px;
     padding-left: 10px
 }
 
-.contactLinks {bottom: 500px;}
+.contactLinks {bottom: 510px;}
 
 
     .currentlyUtilizing i {font-size: 23pt;
@@ -533,6 +555,7 @@ flex-direction: row;}
     .currentlyUtilizing .row {display: flex;
         align-items: flex-end;
         margin-top: 40px;
+        max-width: 100%;
         justify-content: flex-start;}
 
 
@@ -543,10 +566,11 @@ flex-direction: row;}
                 left: 70%;}
 
 
-.header {    max-width: 401px;}
+.header {    max-width: 100%;}
 
 .headers {font-size: 40px;}
-.contactLinks h2 {font-size: 35px;}
+.contactLinks h2 {font-size: 35px;
+margin-top: 3%;}
 .myName {
     position: relative; top: -42px;
     padding-left: 0px;
@@ -556,13 +580,17 @@ width: 100%;}
 
     .monogram {
         margin-right: 3%;}
+
+.navRow {  width: 100%;
+    max-width: 100%;}
 .navRow a {font-size: 22px;
 text-align: left;
 margin-left: 12px;
 margin-right: 12px;}
 .navLinks {display: none;}
 
-.portfolio {max-height: 270px;}
+.portfolio {max-height: 270px;
+}
 
 #previous i, #next i  {position: absolute;
     font-size: 50pt;
@@ -574,6 +602,7 @@ margin-right: 12px;}
 
 #row2 i {margin-left: 7%;
     margin-right: 7%;
+    max-width: 100%;
     display: flex;
     justify-content: flex-end;
 padding-left: 58px;}
@@ -620,6 +649,7 @@ padding-left: 58px;}
     max-width: 10px!important;}    
 
     .currentlyUtilizing .row {display: flex;
+        max-width: 100%;
         align-items: flex-end;
         justify-content: flex-end;}
 
@@ -636,6 +666,7 @@ top: -5px;}
 
 #row2 i {margin-left: 8%;
     margin-right: 8%;
+    max-width: 100%;
     display: flex;}
 
     #html {position: relative;
