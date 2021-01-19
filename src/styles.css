@@ -320,7 +320,7 @@ padding-bottom: 15px;}
 
 
     #dropRight .dropdown-menu {border: none;
-    margin-left: -38.8%;
+    margin-left: 21px;
 margin-top: 10%;}
 
 .footer {max-height: 500px;
@@ -338,7 +338,7 @@ margin-right: 5px;}
 .form-row {display: flex;
     max-width: 100%;}
 
-.hamburgerContact {padding-left: 15px;
+.hamburgerContact {padding-left: 20px;
     padding-top: 4px;}
 
 
@@ -518,7 +518,7 @@ flex-direction: row;}
             width: 100%;}
         .aboutMePhoto {width: 350px;
             max-width: 450px!important;
-        margin-left: 8%;}
+        margin-left: -.75%;}
 
 .basedIn{font-size: 25px;
     position: relative; top: -38px;}
@@ -566,6 +566,10 @@ flex-direction: row;}
             .contact button {
                 left: 70%;}
 
+
+                #hamburgerContactmenu .dropdown-menu {position: absolute;
+                    padding-left: 1%;
+                    bottom: 0;}
 
 .header {    max-width: 100%;}
 
@@ -702,6 +706,7 @@ margin-right: 9.19%;}
 
 
 .hamburgerDropDown {display: none;}
+
 
 .carousel img {max-width: 1300px;
     max-height: 600px;
