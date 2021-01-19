@@ -608,7 +608,10 @@ margin-right: 12px;}
     justify-content: flex-end;
 padding-left: 58px;}
 
-#row2 i:hover {margin-left: 9%;}
+
+.currentlyUtilizing #row2 i:hover {font-size: 27pt;
+    margin-right: 4%;
+margin-left: 9.8%;}
 
 .currentlyUtilizing label {display: none;}
 
@@ -669,7 +672,8 @@ top: -5px;}
     margin-right: 8%;
     max-width: 100%;
     display: flex;}
-
+.currentlyUtilizing #row2 i:hover {
+margin-right: 9.19%;}
     #html {position: relative;
         left: 7%;}
         #css {position: relative;
