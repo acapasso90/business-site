@@ -28,6 +28,7 @@ form {margin-left: auto;
     padding: 10px 15px 70px 15px;
     border-radius: 2px;
 margin-right: auto;
+border: 3px solid #dddcdc;
 background-color: #E7ECF1;
 width: 800px;}
 
@@ -113,6 +114,7 @@ resize: vertical;}
 
 .aboutMe .row {background-color: #E7ECF1;
 max-width: 1100px;
+border: 3px solid #dddcdc;
 padding: 12px 0;
 margin-left: auto;
 margin-right: auto;}
@@ -140,7 +142,8 @@ animation-delay: 3.4s;}
 
 .carousel {width: 1200px;
     user-select: none;
-    height: 500px}
+    border: 2px solid  #d1c4c4;
+    height: 607px}
     .carousel img {max-width: 1300px;
         max-height: 60%;
     min-height: 60%}
@@ -174,7 +177,7 @@ opacity: 92%;}
 width: 60px;}
 
 .carousel-indicators {position: absolute;
-bottom: -22%;}
+bottom: -12%;}
 
 .container {min-width: 100%!important;
     max-width: 100%;
@@ -193,7 +196,7 @@ box-shadow:
 .contact button {
 position: absolute;
 margin-top: 10px;
-left: 68.1%;
+left: 67.6%;
 background-color: #EEF0F0;
     color: #3b3939;
 }
