@@ -488,10 +488,12 @@ flex-direction: row;}
 #portfolioHeader {margin-left: 33%;}
 
 .aboutMe {margin-top: 10px;}
-        .carousel {width: 95%;}
+
+        .carousel {width: 95%;
+        height: 209px;}
 
         .carousel-indicators {position: absolute;
-            bottom: 48%;}
+            bottom: -25%;}
 
             .carousel-caption {bottom: -5%;
                 left: 5%;
@@ -602,7 +604,7 @@ margin-right: 12px;}
 
 #previous i, #next i  {position: absolute;
     font-size: 50pt;
-    top: 10%;}
+    top: 30%;}
 
 #previous i {left: 30%;}
 
