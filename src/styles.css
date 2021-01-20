@@ -141,9 +141,8 @@ animation-delay: 3.4s;}
 
 .carousel {width: 1200px;
     user-select: none;
-    border: 2px solid  #d1c4c4;
-    height: 603.5px}
-    .carousel img {max-width: 1300px;
+    border: 2px solid  #d1c4c4;}
+        .carousel img {max-width: 1300px;
         max-height: 60%;
     min-height: 60%}
  
@@ -522,7 +521,7 @@ flex-direction: row;}
             width: 100%;}
         .aboutMePhoto {width: 350px;
             max-width: 450px!important;
-        margin-left: -.75%;}
+        margin-left: 7.5%;}
 
 .basedIn{font-size: 25px;
     position: relative; top: -38px;}
@@ -633,7 +632,8 @@ margin-left: 9.8%;}
     .footer {
     overflow: hidden;}
 
-    .carousel {width: 95%;}
+    .carousel {width: 95%;
+    height: 485px;}
 
     .currentlyUtilizing {width: 100%;}
 
@@ -713,7 +713,7 @@ margin-right: 9.19%;}
 
 
 .carousel img {max-width: 1300px;
-    max-height: 600px;
+    max-height: 603.5px;
 min-height: 600px}
 
 }
@@ -737,6 +737,7 @@ to {margin-left: 0;}}
     color:  #484E57;}
 100% {background-color: #484E57;
     color: #EEF0F0;}}
+
 
     .dropdown-menu {    background-color: #e9eef3;}
 
