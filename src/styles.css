@@ -100,7 +100,7 @@ padding-bottom: 30px;}
 #row2 label {
 margin-top: -35px!important;}
 
-#summary {width: 760px;
+#summary {width: 754px;
 resize: vertical;}
 
 .aboutMe {margin-top: 60px;
@@ -130,11 +130,13 @@ margin-left: 2%;}
 
 .basedIn {white-space: nowrap;
     z-index: 4;
+position: relative;
+top: 5%;
     opacity: 0%;
 font-size: 35pt;
 animation: fadeIn 3s normal;
 animation-fill-mode: forwards;
-animation-delay: 3.4s;}
+animation-delay: 2.7s;}
 
 .headerShown {animation: appear 3s normal;
     animation-fill-mode: forwards;}
@@ -406,16 +408,18 @@ color: #cdf3da;
 font-family: 'Rock Salt', cursive;
 font-size: 5vw;
     position: relative;
-    top: 35px;
+    top: 10%;
     left: 12%;
     white-space: nowrap;
     transform: scale(1.2);
     width: 100%;
     max-width: 100%;
+    text-shadow: 1px 1px 1px #636161,
+    -1px -1px 1px #636161;
     text-align: left;
     padding-left: 15px;
     letter-spacing: 2.29vw;
-    animation: appearNoFade 3.4s normal;}
+    animation: appearNoFade 2.7s normal;}
 
 
 
@@ -521,9 +525,10 @@ flex-direction: row;}
         
         #aboutMeText {position: relative;
             width: 100%;}
+
         .aboutMePhoto {width: 350px;
             max-width: 450px!important;
-        margin-left: 7.5%;}
+        margin-left: 10.5%;}
 
 .basedIn{font-size: 25px;
     position: relative; top: -38px;}
