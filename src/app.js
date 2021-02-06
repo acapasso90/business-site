@@ -15,6 +15,7 @@ const npmlabel = document.getElementById("npm");
 const npm = document.querySelector(".fa-npm");
 const visuallabel = document.getElementById("visualstudiocode");
 const visual = document.querySelector(".devicon-visualstudio-plain");
+// "hover" effects for Currently Utilizing icons.
 html.addEventListener("mouseenter", e => {
     htmllabel.style.opacity = '100%';})
 html.addEventListener("mouseleave", e => {
@@ -48,14 +49,14 @@ visual.addEventListener("mouseenter", e => {
 visual.addEventListener("mouseleave", e => {
     visuallabel.style.opacity = '0%';})
 
-
+//Sets intervel for carousel to change slides
     var myCarousel = document.querySelector('#myCarousel')
     var carousel = new bootstrap.Carousel(myCarousel, {
       interval: 6000,
       wrap: false
     })
 
-
+//Adds nextSlide/previousSlide functionality to next and previous arrows on carousel
     const next = document.getElementById('next')
     const previous = document.getElementById('previous')
 
@@ -66,6 +67,7 @@ visual.addEventListener("mouseleave", e => {
     previous.addEventListener("click", previousSlide)
 
 
+//Sets Intersection_Observer_API margin, threshold and area 
     let options = {
         root: document.querySelector('#scrollArea'),
         rootMargin: '0px',
@@ -74,6 +76,7 @@ visual.addEventListener("mouseleave", e => {
       
 const headers = document.querySelectorAll('.headers')
 
+//Sets Intersection_Observer_API to add headerShown classlist when scrolled to
 observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.intersectionRatio > 0){
@@ -84,5 +87,5 @@ observer = new IntersectionObserver(entries => {
         }
     });
   });
-
+//Observes all the headers
     headers.forEach(h1 => { observer.observe(h1)});
