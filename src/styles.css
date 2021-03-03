@@ -90,7 +90,7 @@ left: 11.9%}
 left: 6%;}
 
 #previous i, #next i {font-size: 70pt;
-color: #62686e;
+  color: #b87187;
 text-shadow: 2px 2px 5px #504545;}
 
 #row2 i {margin-left: 9%;
@@ -183,7 +183,7 @@ opacity: 92%;}
 
 .carousel-control-next-icon, .carousel-control-prev-icon {height: 76px!important;}
 
-.carousel-indicators li {background-color: #4b6b6b;
+.carousel-indicators li {background-color: #da95ab;
 width: 60px;}
 
 .carousel-indicators {position: absolute;
