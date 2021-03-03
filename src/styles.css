@@ -538,7 +538,7 @@ flex-direction: row;}
     .aboutMe {
         margin-bottom: 0px;}
 
-    .aboutMe .row {background-color: #E7ECF1;
+    .aboutMe .row {
         max-width: 900px;
         margin-top: -40px;
         margin-left: auto;
@@ -670,7 +670,7 @@ margin-left: 9.8%;}
 
     .currentlyUtilizing {width: 100%;}
 
-    .aboutMe .row {background-color: #E7ECF1;
+    .aboutMe .row {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;}
