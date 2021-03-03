@@ -26,6 +26,9 @@ border: 2px solid #9b7183;
     outline: none;
     border-radius: 3px;
     font-size: 18px;}
+
+    button:hover {background-color: #522d35;
+        color: #e9b7e2;}
 form {margin-left: auto;
     padding: 10px 15px 70px 15px;
     border-radius: 2px;
@@ -137,6 +140,7 @@ margin-left: 2%;}
 .basedIn {white-space: nowrap;
     z-index: 4;
 position: relative;
+color: #cca0ae;
 top: 5%;
     opacity: 0%;
 font-size: 35pt;
@@ -203,17 +207,14 @@ box-shadow: 0px 1px 10px #250512;}
 .contact button {
 position: absolute;
 margin-top: 10px;
-right: 28.5%;
+right: 405px;
 background-color: #EEF0F0;
     color: #3b3939;
 }
 
-.contact button:hover {background-color: #484E57;
-color:  #EEF0F0}
+.submitButton:hover {background-color: #ebb4cf!important;
+    color: #472123!important;}
 
-
-.contactLinks button:hover {background-color: #522d35;
-color: #e9b7e2;}
 .submitButton:active {margin-top: 12px;
     animation: footerbuttonActive .5s normal;}
 
@@ -318,7 +319,10 @@ padding-right: 80px;
 
 
 #dropdownMenu {  background-image: url(../media/marble.jpg)!important;
-margin-top: 2.61%!important;}
+    max-width: 265px;
+margin-top: 2.65%!important;
+position: absolute;
+left: -55%;}
 
 .dropdown:hover > .dropdown-menu {
     display:block;
@@ -768,7 +772,8 @@ to {margin-left: 0;}}
     color: #EEF0F0;}}
 
 
-    .dropdown-menu {    background-color: #e9eef3;}
+    .dropdown-menu {    background-color: #e9eef3;
+}
 
     .dropdown-item:hover {background-color: transparent;
         color: #494f6e;}
