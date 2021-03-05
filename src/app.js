@@ -52,7 +52,7 @@ visual.addEventListener("mouseleave", e => {
 //Sets intervel for carousel to change slides
     var myCarousel = document.querySelector('#myCarousel')
     var carousel = new bootstrap.Carousel(myCarousel, {
-      interval: 6000,
+      interval: 500000000000000000000000,
       wrap: false
     })
 
@@ -89,3 +89,34 @@ observer = new IntersectionObserver(entries => {
   });
 //Observes all the headers
     headers.forEach(h1 => { observer.observe(h1)});
+
+
+// Adds display:none from hiddenInfo and removes shown class
+function closePopup(){
+    const hidden = document.querySelector('.shown');
+    const blackout = document.querySelector('.blackout');
+    hidden.classList.remove('shown');
+    hidden.classList.add('hiddenInfo');
+    blackout.classList.add('blackout');
+blackout.classList.remove('blackoutShown');
+    }
+
+// on click closePopup
+const exitButton = document.querySelector('.closeButton');
+exitButton.addEventListener("click", closePopup)
+
+// Removes display:none from hiddenInfo and adds shown class
+function showPopup(){
+const hidden = document.querySelector('.hiddenInfo');
+const blackout = document.querySelector('.blackout');
+const body2 = document.querySelector('body');
+hidden.classList.remove('hiddenInfo');
+hidden.classList.add('shown');
+blackout.classList.remove('blackout');
+blackout.classList.add('blackoutShown');
+body2.classList.add('noScroll');
+}
+
+// on click triggers showPopup function
+const popupLink = document.querySelector('.popupLink');
+popupLink.addEventListener("click", showPopup)
