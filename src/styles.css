@@ -346,12 +346,12 @@ left: -55%;}
     display:block;
     top: 32px;
   }
-.dropdown > .dropdown-menu {
-    display:none;
-  }
+
 
   .dropdown-item {width: 250px; 
    color: #ffa9ca}
+
+   .dropdown a:hover { color: #ffa9ca;}
 
   .dropdown i {font-size: 50px;
 padding-bottom: 15px;}
@@ -360,6 +360,12 @@ padding-bottom: 15px;}
     #dropRight .dropdown-menu {border: none;
     margin-left: 21px;
 margin-top: 10%;}
+
+
+.fa-caret-down {font-size: 14pt!important;
+position: absolute;
+bottom: -8px;
+right: -16px;}
 
 .footer {max-height: 500px;
     overflow: hidden;

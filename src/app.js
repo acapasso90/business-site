@@ -109,14 +109,21 @@ exitButton.addEventListener("click", closePopup)
 function showPopup(){
 const hidden = document.querySelector('.hiddenInfo');
 const blackout = document.querySelector('.blackout');
-const body2 = document.querySelector('body');
 hidden.classList.remove('hiddenInfo');
 hidden.classList.add('shown');
 blackout.classList.remove('blackout');
 blackout.classList.add('blackoutShown');
-body2.classList.add('noScroll');
 }
 
 // on click triggers showPopup function
 const popupLink = document.querySelector('.popupLink');
 popupLink.addEventListener("click", showPopup)
+
+$(document).ready(function(){
+    $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
