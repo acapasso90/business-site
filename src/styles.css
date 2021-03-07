@@ -502,7 +502,7 @@ right: 100px;}
     max-width: 100%;
     height: 85px;
     position: fixed;
-    z-index: 5;
+    z-index: 9999999;
 }
 
 .navRow a {margin-left: 25px;
@@ -535,10 +535,15 @@ height: 630px;
 background-color: #b87187;
 color: #161616;
 z-index: 9;
-top: 20%;}
+top: 17%;}
+
+.shown li {margin-bottom: 10px;
+margin-top: 2px;}
 
 .shown p {width: 80%;
+    padding-left: 10%;
 ;}
+
 .hiddenInfo {display: none;}
 
 
