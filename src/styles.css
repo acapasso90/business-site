@@ -342,16 +342,21 @@ margin-top: 2.65%!important;
 position: absolute;
 left: -55%;}
 
+#dropdownMenuLink:hover {background-color: transparent;}
 .dropdown:hover > .dropdown-menu {
     display:block;
     top: 32px;
   }
 
 
-  .dropdown-item {width: 250px; 
-   color: #ffa9ca}
+  .dropdown-item {width: 263px;
+    position: relative;
+    right: 25px;
+    padding-left: 40px;
+   color: #e7d2dc;}
 
-   .dropdown a:hover { color: #ffa9ca;}
+   .dropdown a:hover { color: #ffa9ca;
+background-color: rgba(255, 93, 131, 0.1)}
 
   .dropdown i {font-size: 50px;
 padding-bottom: 15px;}
