@@ -49,6 +49,7 @@ background-image: url(../media/pexels-hasan-albari-1229864.jpg);}
 header {    background: linear-gradient(0deg, rgba(112,116,131,1) 0%, rgba(162,150,128,1) 39%, rgba(223,212,192,1) 100%);
     background-image: url(../media/pexels-hasan-albari-1229862.jpg);
     background-repeat: no-repeat;
+    background-size: 100% 704px!important;
  width: 100%;
  min-width: 100%;
  max-width: 100%;
@@ -56,8 +57,7 @@ opacity: 70%;
 position: absolute;
 top: 85px;
 left: 0px;
-min-height: 100%; 
-background-size: 100% 520px;
+min-height: 704px!important; 
 box-shadow: -4px 0px 10px #250512;}
 
 label { font-size: 17pt!important;
@@ -112,7 +112,7 @@ margin-top: -35px!important;}
 #summary {width: 754px;
 resize: vertical;}
 
-.aboutMe {margin-top: 60px;
+.aboutMe {margin-top: 150px;
     margin-bottom: 130px;}
 
     .aboutMe p {margin-right: 2%;
@@ -166,12 +166,15 @@ font-size: 15pt!important;}
 .headerShown {animation: appear 3s normal;
     animation-fill-mode: forwards;}
 
-.carousel {width: 1200px;
+.carousel {width: 900px;
     user-select: none;
+    max-height: 442px;
+    min-height: 442px;
     border: 2px solid  #d1c4c4;}
-        .carousel img {max-width: 1300px;
-        max-height: 60%;
-    min-height: 60%}
+
+        .carousel img {max-width: 1000px;
+        max-height: 438px;
+    min-height: 438px;}
  
     
         .carousel-caption {width: 360px;
@@ -212,7 +215,7 @@ right: 2%;}
 padding: 0px!important;
 margin: 0px!important;}
 
-.contact {margin-top: 150px;
+.contact {margin-top: 100px;
 max-width: 100%;
 justify-content: center;
 background-color: #363636;
@@ -319,7 +322,7 @@ margin-bottom: 35px;}
 
 .currentlyUtilizing {
 	background: #363636;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
     max-width: 100%;
 padding-top: 20px;
 box-shadow: 0px -1px 10px #250512,
@@ -343,11 +346,6 @@ position: absolute;
 left: -55%;}
 
 #dropdownMenuLink:hover {background-color: transparent;}
-.dropdown:hover > .dropdown-menu {
-    display:block;
-    top: 32px;
-  }
-
 
   .dropdown-item {width: 263px;
     position: relative;
@@ -413,7 +411,7 @@ margin-right: 5px;}
     max-width: 100%;
     width: 100%;
     min-width: 400px;
-    height: 530px;
+    height: 600px;
     z-index: -1!important;
 }
 
@@ -517,7 +515,7 @@ text-decoration: none;
 
 .portfolio {position: relative;
     max-width: 100%;
-bottom: 100px;}
+bottom: 10px;}
 
 .previewPic {width: 31%;
 position: absolute;
@@ -800,9 +798,6 @@ margin-right: 9.19%;}
 .hamburgerDropDown {display: none;}
 
 
-.carousel img {max-width: 1300px;
-    max-height: 603.5px;
-min-height: 600px}
 
 }
 
