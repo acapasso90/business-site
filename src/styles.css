@@ -544,7 +544,7 @@ margin-top: 2px;}
     padding-left: 10%;
 ;}
 
-.hiddenInfo {display: none;}
+.hiddenInfo, .hiddenInfoTwo {display: none;}
 
 
 

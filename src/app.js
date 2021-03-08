@@ -94,11 +94,9 @@ observer = new IntersectionObserver(entries => {
 // Adds display:none from hiddenInfo and removes shown class
 function closePopup(){
     const hidden = document.querySelector('.shown');
-    const blackout = document.querySelector('.blackout');
     hidden.classList.remove('shown');
     hidden.classList.add('hiddenInfo');
-    blackout.classList.add('blackout');
-blackout.classList.remove('blackoutShown');
+
     }
 
 // on click closePopup
@@ -108,11 +106,8 @@ exitButton.addEventListener("click", closePopup)
 // Removes display:none from hiddenInfo and adds shown class
 function showPopup(){
 const hidden = document.querySelector('.hiddenInfo');
-const blackout = document.querySelector('.blackout');
 hidden.classList.remove('hiddenInfo');
 hidden.classList.add('shown');
-blackout.classList.remove('blackout');
-blackout.classList.add('blackoutShown');
 }
 
 // on click triggers showPopup function
