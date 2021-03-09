@@ -561,7 +561,8 @@ margin-top: 2px;}
     #summary {width: 98%;
         resize: vertical;}
 
-        #aboutHeader {margin-left: 40%;}
+        #aboutHeader {margin-left: 40%;
+        margin-top: 70px;}
 
         #utilizingHeader {margin-left: 12%;
         letter-spacing: -3.5px;
@@ -575,7 +576,8 @@ margin-top: 2px;}
 .aboutMe {margin-top: 10px;}
 
         .carousel {width: 95%;
-        height: 209px;}
+        max-height: 208px;
+    min-height: 209px;}
 
         .carousel-indicators {position: absolute;
             bottom: -25%;}
