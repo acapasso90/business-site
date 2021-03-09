@@ -208,7 +208,8 @@ width: 60px;}
 bottom: -12%;}
 
 
-.closeButton {position: absolute;
+.closeButton, .closeButtonTwo, .closeButtonThree, .closeButtonFour,
+.closeButtonFive, .closeButtonSix {position: absolute;
     top: 1%;
 right: 1%;}
 
@@ -316,7 +317,7 @@ margin-bottom: 35px;}
     margin-bottom: 5%;}
 
 .currentlyUtilizing #row2 {position: relative;
-    right: 20px;}
+    right: 25px;}
 
 .currentlyUtilizing {
 	background: #363636;
@@ -423,6 +424,8 @@ margin-right: 5px;}
     white-space: nowrap;
     margin-bottom: 80px;
 padding-right: 30px;}
+
+
 
 .shown p {position: relative;
 top: 10%;}
@@ -544,7 +547,9 @@ margin-top: 2px;}
     padding-left: 10%;
 ;}
 
-.hiddenInfo, .hiddenInfoTwo {display: none;}
+.hiddenInfo, .hiddenInfoTwo, .hiddenInfoThree,
+.hiddenInfoFour, .hiddenInfoFive, .hiddenInfoSix
+ {display: none;}
 
 
 

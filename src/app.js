@@ -96,12 +96,48 @@ function closePopup(){
     const hidden = document.querySelector('.shown');
     hidden.classList.remove('shown');
     hidden.classList.add('hiddenInfo');
-
     }
+
+    // Adds display:none from hiddenInfo and removes shown class
+function closePopupTwo(){
+    const hidden = document.querySelector('.shown');
+    hidden.classList.remove('shown');
+    hidden.classList.add('hiddenInfoTwo');
+    }
+
+    // Adds display:none from hiddenInfo and removes shown class
+    function closePopupThree(){
+        const hidden = document.querySelector('.shown');
+        hidden.classList.remove('shown');
+        hidden.classList.add('hiddenInfoThree');
+        }
+
+// Adds display:none from hiddenInfo and removes shown class
+    function closePopupFour(){
+        const hidden = document.querySelector('.shown');
+        hidden.classList.remove('shown');
+        hidden.classList.add('hiddenInfoFour');
+        }
+
+    
 
 // on click closePopup
 const exitButton = document.querySelector('.closeButton');
 exitButton.addEventListener("click", closePopup)
+
+// on click closePopup
+const exitButtonTwo = document.querySelector('.closeButtonTwo');
+exitButtonTwo.addEventListener("click", closePopupTwo)
+
+// on click closePopup
+const exitButtonThree = document.querySelector('.closeButtonThree');
+exitButtonThree.addEventListener("click", closePopupThree)
+
+// on click closePopup
+const exitButtonFour = document.querySelector('.closeButtonFour');
+exitButtonFour.addEventListener("click", closePopupFour)
+
+
 
 // Removes display:none from hiddenInfo and adds shown class
 function showPopup(){
@@ -110,6 +146,42 @@ hidden.classList.remove('hiddenInfo');
 hidden.classList.add('shown');
 }
 
+// Removes display:none from hiddenInfo and adds shown class
+function showPopupTwo(){
+    const hidden = document.querySelector('.hiddenInfoTwo');
+    hidden.classList.remove('hiddenInfoTwo');
+    hidden.classList.add('shown');
+    }
+
+// Removes display:none from hiddenInfo and adds shown class
+function showPopupThree(){
+    const hidden = document.querySelector('.hiddenInfoThree');
+    hidden.classList.remove('hiddenInfoThree');
+    hidden.classList.add('shown');
+    }
+
+    // Removes display:none from hiddenInfo and adds shown class
+function showPopupFour(){
+    const hidden = document.querySelector('.hiddenInfoFour');
+    hidden.classList.remove('hiddenInfoFour');
+    hidden.classList.add('shown');
+    }
+    
+
+
 // on click triggers showPopup function
 const popupLink = document.querySelector('.popupLink');
 popupLink.addEventListener("click", showPopup);  
+
+// on click triggers showPopup function
+const popupLinkTwo = document.querySelector('.popupLinkTwo');
+popupLinkTwo.addEventListener("click", showPopupTwo);  
+
+// on click triggers showPopup function
+const popupLinkThree = document.querySelector('.popupLinkThree');
+popupLinkThree.addEventListener("click", showPopupThree);  
+
+// on click triggers showPopup function
+const popupLinkFour = document.querySelector('.popupLinkFour');
+popupLinkFour.addEventListener("click", showPopupFour);  
+
