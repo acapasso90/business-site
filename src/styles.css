@@ -176,6 +176,10 @@ display: inherit;
 
 .builtWith {font-weight: bold;
 font-size: 15pt!important;}
+
+.builtWithContainer { position: absolute;
+    white-space: nowrap;
+bottom: 0;}
 .headerShown {animation: appear 3s normal;
     animation-fill-mode: forwards;}
 
@@ -217,10 +221,10 @@ width: 60px;}
 bottom: -12%;}
 
 
-.closeButton, .closeButtonTwo, .closeButtonThree, .closeButtonFour,
-.closeButtonFive, .closeButtonSix {position: absolute;
-    top: 1%;
-right: 1%;}
+.closeButton {position: absolute;
+    top: 0.5%;
+    max-width: 80px;
+right: 0.25%;}
 
 .container {min-width: 100%!important;
     max-width: 100%;
@@ -436,13 +440,11 @@ padding-right: 30px;}
 
 
 
-.shown p {position: relative;
-top: 10%;}
 
-.shown ul {margin-top: 2%;}
+.shown ul {margin-top: 0.5%;}
 .shown li, .shown p {font-size: 14pt;}
 
-.shown button {width: 150px;}
+.shown button {width: 125px;}
 
 #aboutHeader {margin-left: 75%;}
 
