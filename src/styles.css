@@ -160,15 +160,19 @@ animation-fill-mode: forwards;
 animation-delay: 2.7s;}
 
 .blackout {
-    display: none;
+height: 1500px;
+        min-width: 100%;
+        background-color: rgb(34, 34, 34);
+        z-index: 9;
+        position: absolute;
+        bottom: -250px;
+display: none;
 }
 
-.blackoutShown {height: 507.4vh;
-    position: absolute;
-min-width: 100%;
-background-color: #eee;
-opacity: 50%;
-z-index: 0;}
+.blackoutShown {
+    opacity: 94%;
+display: inherit;
+}
 
 .builtWith {font-weight: bold;
 font-size: 15pt!important;}
@@ -512,7 +516,6 @@ right: 100px;}
     max-width: 100%;
     height: 85px;
     position: fixed;
-    z-index: 9999999;
 }
 
 .navRow a {margin-left: 25px;
@@ -548,7 +551,7 @@ background-color: #727272;
 border: 4px solid #b87187;
 border-radius: 2px;
 color: #161616;
-z-index: 9;
+z-index: 99999999;
 top: 17%;}
 
 .shown li {margin-bottom: 10px;

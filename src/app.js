@@ -15,7 +15,6 @@ const npmlabel = document.getElementById("npm");
 const npm = document.querySelector(".fa-npm");
 const visuallabel = document.getElementById("visualstudiocode");
 const visual = document.querySelector(".devicon-visualstudio-plain");
-const body = null;
 // "hover" effects for Currently Utilizing icons.
 html.addEventListener("mouseenter", e => {
     htmllabel.style.opacity = '100%';})
@@ -95,10 +94,12 @@ observer = new IntersectionObserver(entries => {
 // Adds display:none from hiddenInfo and removes shown class
 function closePopup(){
     const hidden = document.querySelector('.shown');
+    const blackout = document.querySelector('.blackout');
     const noScroll = document.querySelector('html');
     noScroll.classList.remove('popUpBody');
     hidden.classList.remove('shown');
     hidden.classList.add('hiddenInfo');
+    blackout.classList.remove('blackoutShown');
 
     }
 
@@ -114,8 +115,10 @@ exitButton.forEach(closeButton => (closeButton.addEventListener("click", closePo
 // Removes display:none from hiddenInfo and adds shown class
 function showPopup(){
 const hidden = document.getElementById('hiddenInfo1');
+const blackout = document.querySelector('.blackout');
 const noScroll = document.querySelector('html');
 noScroll.classList.add('popUpBody');
+blackout.classList.add('blackoutShown');
 hidden.classList.remove('hiddenInfo');
 hidden.classList.add('shown');
 }
@@ -124,6 +127,8 @@ hidden.classList.add('shown');
 function showPopupTwo(){
     const hidden = document.getElementById('hiddenInfo2');
     const noScroll = document.querySelector('html');
+    const blackout = document.querySelector('.blackout');
+blackout.classList.add('blackoutShown');
     noScroll.classList.add('popUpBody');
     hidden.classList.remove('hiddenInfo');
     hidden.classList.add('shown');
@@ -133,6 +138,8 @@ function showPopupTwo(){
 function showPopupThree(){
     const hidden = document.getElementById('hiddenInfo3');
     const noScroll = document.querySelector('html');
+    const blackout = document.querySelector('.blackout');
+blackout.classList.add('blackoutShown');
     noScroll.classList.add('popUpBody');
     hidden.classList.remove('hiddenInfo');
     hidden.classList.add('shown');
@@ -142,6 +149,8 @@ function showPopupThree(){
 function showPopupFour(){
     const hidden = document.getElementById('hiddenInfo4');
     const noScroll = document.querySelector('html');
+    const blackout = document.querySelector('.blackout');
+blackout.classList.add('blackoutShown');
     noScroll.classList.add('popUpBody');
     hidden.classList.remove('hiddenInfo');
     hidden.classList.add('shown');
@@ -151,6 +160,8 @@ function showPopupFour(){
     function showPopupFive(){
         const hidden = document.getElementById('hiddenInfo5');
         const noScroll = document.querySelector('html');
+        const blackout = document.querySelector('.blackout');
+blackout.classList.add('blackoutShown');
         noScroll.classList.add('popUpBody');
         hidden.classList.remove('hiddenInfo');
         hidden.classList.add('shown');
@@ -160,6 +171,8 @@ function showPopupFour(){
     function showPopupSix(){
         const hidden = document.getElementById('hiddenInfo6');
         const noScroll = document.querySelector('html');
+        const blackout = document.querySelector('.blackout');
+blackout.classList.add('blackoutShown');
 noScroll.classList.add('popUpBody');
         hidden.classList.remove('hiddenInfo');
         hidden.classList.add('shown');
