@@ -562,8 +562,7 @@ margin-top: 2px;}
 .shown p {width: 80%;
     padding-left: 8%;
     position: relative;
-    top: 12px;
-;}
+    top: 12px;}
 
 
 
@@ -641,7 +640,10 @@ margin-top: 2px;}
 .basedIn{font-size: 25px;
     position: relative; top: -38px;}
 
-
+.builtWithContainer {position: relative;
+    padding-top: 380px;
+    font-size: 13pt;
+left: -32%;}
     form {
     width: 100%;}
 .carousel-inner, .carousel-item {height: 205px;}
@@ -649,6 +651,10 @@ margin-top: 2px;}
         max-height: 195px;
     min-height: 205px;}
     
+
+    .closeButton {
+    margin-left: 80%;}
+
 
     .contactLinks h2 {white-space: nowrap;
     font-size: 20px;
@@ -715,6 +721,8 @@ margin-right: 12px;}
 .portfolio {max-height: 270px;
 }
 
+.previewPic {width: 70.5%; }
+
 #previous i, #next i  {position: absolute;
     font-size: 50pt;
     top: 30%;}
@@ -730,6 +738,17 @@ margin-right: 12px;}
     justify-content: flex-end;
 padding-left: 58px;}
 
+.shown button {width: 100px;
+position: relative;
+left: -30px;}
+
+.shown p {width: 95%;
+    padding-left: 1%;
+    font-size: 11.2pt;}
+
+    .shown {
+        min-height: 640px; 
+        top: 2%;}
 
 .currentlyUtilizing #row2 i:hover {font-size: 27pt;
     margin-right: 4%;
