@@ -597,7 +597,8 @@ margin-top: 2px;}
 
 #portfolioHeader {margin-left: 33%;}
 
-.aboutMe {margin-top: 10px;}
+.aboutMe {margin-top: 10px;
+    margin-bottom: 0px;}
 
         .carousel {width: 95%;
         max-height: 208px;
@@ -616,11 +617,9 @@ margin-top: 2px;}
 
 
         #emailSubmit, #companySubmit {width: 50%;}
-    .aboutMe {
-        margin-bottom: 0px;}
 
     .aboutMe .row {
-        max-width: 900px;
+        max-width: 96%;
         margin-top: -40px;
         margin-left: auto;
         margin-right: auto;}
@@ -633,9 +632,10 @@ margin-top: 2px;}
         #aboutMeText {position: relative;
             width: 100%;}
 
-        .aboutMePhoto {width: 350px;
-            max-width: 450px!important;
-        margin-left: 10.5%;}
+        .aboutMePhoto {width: 320px;
+            max-width: 380px!important;
+        margin-left: auto;
+    margin-right: auto;}
 
 .basedIn{font-size: 25px;
     position: relative; top: -38px;}
@@ -691,11 +691,8 @@ left: -32%;}
                 left: 70%;}
 
 
-                #hamburgerContactmenu .dropdown-menu {position: absolute;
-                    padding-left: 1%;
-                    bottom: 0;}
-
  .dropdown-menu {background-image: url(../media/marble.jpg)!important;
+    background-color: #252425;
   }
 
 .header {    max-width: 100%;}
