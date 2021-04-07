@@ -175,11 +175,12 @@ display: inherit;
 }
 
 .builtWith {font-weight: bold;
-font-size: 15pt!important;}
+    font-size: 22pt;
+}
 
-.builtWithContainer { position: absolute;
+.builtWithContainer {
     white-space: nowrap;
-bottom: 0;}
+}
 .headerShown {animation: appear 3s normal;
     animation-fill-mode: forwards;}
 
@@ -445,7 +446,8 @@ padding-right: 30px;}
 
 
 .shown ul {margin-top: 0.5%;}
-.shown li, .shown p {font-size: 14pt;}
+.shown li {font-size: 16pt;} 
+
 
 .shown button {width: 125px;}
 
@@ -529,6 +531,9 @@ font-size: 24px;
 text-decoration: none;
 }
 
+.popUpButtons {position: absolute;
+bottom: 0;}
+
 .portfolio {position: relative;
     max-width: 100%;
 bottom: 10px;}
@@ -562,8 +567,9 @@ top: 17%;}
 .shown li {margin-bottom: 10px;
 margin-top: 2px;}
 
-.shown p {width: 80%;
-    padding-left: 8%;
+.shown p {width: 70%;
+    padding-left: 20%;
+    font-size: 13pt;
     position: relative;
     top: 12px;}
 
