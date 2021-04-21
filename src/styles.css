@@ -26,6 +26,7 @@ a:hover {color: #ec9bba;}
     padding: 8px 18px;
     background-color: #161616;
     color: #EEF0F0;
+    text-shadow: 2px 1px 3px #000000;
 border: 2px solid #9b7183;
     outline: none;
     border-radius: 3px;
@@ -33,10 +34,12 @@ border: 2px solid #9b7183;
 
     button:hover {background-color: #522d35;
         color: #e9b7e2;}
+
 form {margin-left: auto;
     padding: 10px 15px 70px 15px;
     border-radius: 2px;
 margin-right: auto;
+box-shadow: inset 1px 0 10px #220000;
 color: #ac858e;
 background-color: #292024;
 width: 800px;}
@@ -126,6 +129,7 @@ border: none;}
 
     .aboutMe p {margin-right: 2%;
         margin-top: 6%;
+        text-shadow: 1px 0 4px #000000;
         color: #d4828b;
         padding-left: 20px;
     font-size: 20px;}
@@ -133,6 +137,7 @@ border: none;}
 .aboutMe .row {background-color: #4d1e21;
 max-width: 1100px;
 border: 3px solid  #250512;
+box-shadow: inset 2px 0 10px #220000;
 border-radius: 2px;
 padding: 12px 0;
 margin-left: auto;
@@ -155,6 +160,7 @@ color: #cca0ae;
 top: 5%;
     opacity: 0%;
 font-size: 35pt;
+text-shadow: -2px 1px 8px #000000, 2px 1px 8px #000000;
 animation: fadeIn 3s normal;
 animation-fill-mode: forwards;
 animation-delay: 2.7s;}
@@ -298,7 +304,7 @@ background-color: transparent;}
     margin-top: 5px;
 font-size: 4.4vw;
 letter-spacing: 3vw;
-text-shadow: -3px 0 #fcbad3, 0 3px #fcbad3, 3px 0 #fcbad3, 0 -3px #fcbad3;
+text-shadow: -3px 0 #fcbad3, 0 3px #fcbad3, 3px 0 #fcbad3, 0 -3px #fcbad3, -3px 1px 8px #000000;
 font-family: 'Rock Salt', cursive;}
 
 
@@ -434,6 +440,7 @@ margin-right: 5px;}
 .header .content { width : 100%;}
 
 .headers {font-family: 'Rock Salt', cursive;
+    text-shadow: 4px 1px 8px #000000;
     opacity: 0%;
     font-size: 4.2vw;
     user-select: none;
@@ -493,7 +500,7 @@ font-size: 5vw;
     transform: scale(1.2);
     width: 100%;
     max-width: 100%;
-    text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000;
+    text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000, -5px 1px 10px #000000;
     text-align: left;
     padding-left: 15px;
     letter-spacing: 2.29vw;
@@ -508,6 +515,7 @@ font-size: 5vw;
 }
 
 .navLinks {position: relative;
+    text-shadow: -2px 1px 8px #000000;
 right: 100px;}
 .navRow {
     box-shadow: -4px 0px 10px #250512;
