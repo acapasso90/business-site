@@ -553,6 +553,11 @@ border: 3px solid #dbdbdb;
 left: 25%;
 bottom: 6px;}
 
+video {border: 3px solid #dbdbdb;
+    position: absolute;
+    left: 30%;
+    bottom: 10px;}
+
 .projects {display: flex;
     max-width: 100%;
 justify-content: center;}
@@ -564,19 +569,19 @@ flex-direction: row;}
 .shown {display: inherit;
 position: fixed;
 width: 97%;
-height: 580px; 
+height: 90vh; 
 background-color: #727272;
 box-shadow: inset -2px -2px 15px rgb(78, 70, 73);
 border: 4px solid #b87187;
 border-radius: 2px;
 color: #161616;
 z-index: 99999999;
-top: 17%;}
+top: 4%;}
 
 .shown li {margin-bottom: 10px;
 margin-top: 2px;}
 
-.shown p {width: 70%;
+.shown p {width: 90%;
     padding-left: 20%;
     font-size: 13pt;
     position: relative;
