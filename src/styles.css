@@ -39,7 +39,7 @@ form {margin-left: auto;
     padding: 10px 15px 70px 15px;
     border-radius: 2px;
 margin-right: auto;
-box-shadow: inset 1px 0 10px #220000;
+box-shadow: inset 1px 0 10px #111111;
 color: #ac858e;
 background-color: #292024;
 width: 800px;}
@@ -127,12 +127,13 @@ border: none;}
 .aboutMe {margin-top: 150px;
     margin-bottom: 130px;}
 
-    .aboutMe p {margin-right: 2%;
+    .aboutMe p {position: relative;
+        left: -50px;
         margin-top: 6%;
         text-shadow: 1px 0 4px #000000;
         color: #d4828b;
-        padding-left: 20px;
-    font-size: 20px;}
+        padding-left: 0px;
+    font-size: 17pt;}
 
 .aboutMe .row {background-color: #4d1e21;
 max-width: 1100px;
@@ -143,10 +144,11 @@ padding: 12px 0;
 margin-left: auto;
 margin-right: auto;}
 
-.aboutMePhoto {width: 65%;
+.aboutMePhoto {width: 80%;
     max-width: 500px!important;
     border: 3px solid #440b22;
     border-radius: 2px;
+    margin-top: 0.75%;
     user-select: none;
 margin-left: 2%;}
 
@@ -229,9 +231,9 @@ bottom: -12%;}
 
 
 .closeButton {position: absolute;
-    top: 0.5%;
+    top: 1.3%;
     max-width: 80px;
-right: 0.25%;}
+right: 0.55%;}
 
 .container {min-width: 100%!important;
     max-width: 100%;
@@ -249,9 +251,9 @@ box-shadow: 0px 1px 10px #250512;}
 .contact form {border: 3px solid #250512;}
 
 .contact button {
-position: absolute;
-margin-top: 10px;
-right: 405px;
+position: relative;
+top: 55px;
+left: 660px;
 }
 
 .submitButton:hover {background-color: #ebb4cf!important;
@@ -458,6 +460,11 @@ padding-right: 30px;}
 
 .shown button {width: 125px;}
 
+.shown li:active {position: relative;
+bottom: -2px;}
+
+.shown button:active {top: 12px;}
+
 #aboutHeader {margin-left: 75%;}
 
 #utilizingHeader {margin-left: 46%;}
@@ -550,8 +557,8 @@ bottom: 10px;}
 position: absolute;
 max-height: 371px;
 border: 3px solid #dbdbdb;
-left: 25%;
-bottom: 6px;}
+left: 27%;
+bottom: 16px;}
 
 video {border: 3px solid #dbdbdb;
     position: absolute;
@@ -571,18 +578,25 @@ position: fixed;
 width: 97%;
 height: 90vh; 
 background-color: #727272;
+background-image: url('../media/popupbackground.png');
+background-position-y: bottom;
 box-shadow: inset -2px -2px 15px rgb(78, 70, 73);
-border: 4px solid #b87187;
+border: 5px solid #b87187;
 border-radius: 2px;
-color: #161616;
+color: #d3d3d3;
 z-index: 99999999;
 top: 4%;}
+
+.shown a {color: #ff81b1;}
+
+.shown a:hover {color: #ffffff;
+font-weight: bold;}
 
 .shown li {margin-bottom: 10px;
 margin-top: 2px;}
 
 .shown p {width: 90%;
-    padding-left: 20%;
+    padding-left: 10%;
     font-size: 13pt;
     position: relative;
     top: 12px;}
@@ -600,9 +614,10 @@ margin-top: 2px;}
     min-width: 100%;
     right: .5px;}
 
-    video {max-width: 69%;
-        margin-bottom: 14px;
-    height: 20%;}
+    video {max-width: 70%;
+        margin-left: -10px;
+        margin-bottom: 1px;
+    height: 30%;}
 
 
     #lastNameLabel {
@@ -651,7 +666,7 @@ margin-top: 2px;}
         margin-left: auto;
         margin-right: auto;}
     
-        .aboutMe p {
+        .aboutMe p {        left: 0px;
             margin-top: 4%;
        text-align: left;
         font-size: 20px;}
@@ -670,7 +685,7 @@ margin-top: 2px;}
 
 .builtWithContainer {position: relative;
     font-size: 13pt;
-left: -32%;}
+left: -25%;}
     form {
     width: 100%;}
 .carousel-inner, .carousel-item {height: 205px;}
@@ -764,11 +779,13 @@ padding-left: 58px;}
 
 .shown button {width: 100px;
 position: relative;
-left: -32px;}
+font-size: 11pt;
+left: -24px;}
 
 .shown p {width: 140%;
     position: relative;
-    left: -40%;
+    top: 40px;
+    left: -42%;
     font-size: 11.2pt;}
 
     .shown {
@@ -801,7 +818,7 @@ margin-left: 9.8%;}
     margin-left: auto;
     margin-right: auto;}
 
-    .aboutMe p {margin-right: 2%;
+    .aboutMe p {
         margin-top: 4%;
         padding-left: 20px;
     font-size: 20px;}
@@ -866,11 +883,10 @@ margin-right: 9.19%;}
 }
 
 @media (min-width: 1025px){ header {min-height: 550px; background-size: 100% 550px;}
-
+video {width: 690px; 
+    height: 400px; }
 
 .hamburgerDropDown {display: none;}
-
-
 
 }
 
