@@ -167,16 +167,7 @@ blackout.classList.add('blackoutShown');
         hidden.classList.add('shown');
         }
     
-// Adds display:none from hiddenInfo and removes shown class
-    function showPopupSix(){
-        const hidden = document.getElementById('hiddenInfo6');
-        const noScroll = document.querySelector('html');
-        const blackout = document.querySelector('.blackout');
-blackout.classList.add('blackoutShown');
-noScroll.classList.add('popUpBody');
-        hidden.classList.remove('hiddenInfo');
-        hidden.classList.add('shown');
-        }
+
 
     
 
@@ -201,7 +192,4 @@ popupLinkFour.addEventListener("click", showPopupFour);
 const popupLinkFive = document.querySelector('.popupLinkFive');
 popupLinkFive.addEventListener("click", showPopupFive);  
 
-// on click triggers showPopup function
-const popupLinkSix = document.querySelector('.popupLinkSix');
-popupLinkSix.addEventListener("click", showPopupSix);  
 
