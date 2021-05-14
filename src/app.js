@@ -202,4 +202,7 @@ popupLinkFour.addEventListener("click", showPopupFour);
 const popupLinkFive = document.querySelector('.popupLinkFive');
 popupLinkFive.addEventListener("click", showPopupFive);  
 
+// on click triggers showPopup function
+const popupLinkSix = document.querySelector('.popupLinkSix');
+popupLinkSix.addEventListener("click", showPopupSix);  
 
