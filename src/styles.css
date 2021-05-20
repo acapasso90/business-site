@@ -226,6 +226,8 @@ display: inherit;
 .carousel-indicators li {background-color: #da95ab;
 width: 60px;}
 
+.carousel-indicators li:hover {background-color: #ffffff;}
+
 .carousel-indicators {position: absolute;
 bottom: -12%;}
 
