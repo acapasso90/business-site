@@ -26,15 +26,15 @@
             </a>
             <div class="dropdown-menu" id="hamburgerMenu" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="#header">Home</a>
-              <a class="dropdown-item" href="#about">About</a>
               <a  class="dropdown-item" href="#portfolio" style="margin-bottom: 4px;">Portfolio</a>
+              <a class="dropdown-item" href="#about">About</a>
               <a class="dropdown-item" href="#contact" >Request a quote</a>
               <a class="dropdown-item" href="#footer"  >Contact</a>
             </div>
           </div>
         <a href="#header" class="navLinks">Home</a>
-        <a href="#about" class="navLinks">About</a>
         <a href="#portfolio" class="navLinks">Portfolio</a>
+        <a href="#about" class="navLinks">About</a>
         <div class="dropdown show">
           <a  href="#" role="button" class="navLinks" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Contact <i class="fas fa-caret-down"></i>
@@ -49,19 +49,209 @@
     <div class="header">
       <header></header>
       <div class="myName">Amanda Capasso</div>
-        <a id="about"></a>
         <div class="basedIn" >
-          Front-end Developer based in CT
+          Front-end Developer based in CT         
+          <a id="portfolio"></a>
         </div>
       </div>
-      <div class="aboutMe">
-        <h1 class="headers" id="aboutHeader">
-          About Me
+      <div class="portfolio">
+        <h1 class="headers" id="portfolioHeader">Portfolio</h1>
+          <div class="projects">
+            <div class="hiddenInfo" id="hiddenInfo1">
+              <ul>
+                <div class="builtWithContainer">
+                  <li class="builtWith"> Built with: </li>
+                  <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
+                </div>
+                <div class="popUpButtons">
+                  <li><a href="https://acnhcritterpedia.netlify.app/" target="_blank"><button> View App </button></a>  </li>
+                  <li><a href="https://github.com/acapasso90/newhorizonscritterpedia" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
+                </div>
+              </ul>
+              <div class="column">
+                <button class="closeButton">Back</button>
+                <p>Animal Crossing New Horizon's Critterpedia built using React and the <a href="http://acnhapi.com/" target="_blank"> ACNH API</a>. By default it displays fish that are currently available in the Northern Hemisphere during the user's current month and hour.
+                  Dropdowns are available to change the time and month and there are buttons for each hemisphere. Bugs and Deep Sea creatures can be accessed by clicking the respective icons 
+                  on the top-left of the header, matching the game's UI. Each bug/fish/deep sea creature can be clicked to learn more information such as sell price, time frame and months available, and rarity. 
+                </p>
+                <img src="media/newhorizons/gif.gif" id="previewPic" class="previewPic" loading="lazy" alt="animalcrossingPreview"> 
+              </div>
+            </div>
+
+            <div class="hiddenInfo" id="hiddenInfo2">
+              <ul>
+                <div class="builtWithContainer">
+                  <li class="builtWith"> Built with: </li>
+                  <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
+                </div>
+                <div class="popUpButtons">
+                  <li><a href="https://chuckinaces.netlify.app/" target="_blank"> <button> View App </button></a>  </li>
+                  <li><a href="https://github.com/acapasso90/chuckinaces-pokesearch" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
+                </div>
+              </ul>
+              <div class="column">
+                <button class="closeButton">Back</button>
+                  <p>Pokémon Card & Pokémon Stat search engine built using the <a href="https://pokeapi.co/" target="_blank">PokeApi</a> and the <a href="https://pokemontcg.io/" target="_blank"> Pokémon TCG API</a> for Twitch livestreamers <a href="https://www.twitch.tv/chuckinaces" target="_blank"> ChuckinAces </a> to 
+                  use in their Pokémon Card giveaways. The stat page displays weight and height, as well as base stats, of any Pokémon. There is a multi-pokémon stat search page where the user can input the amount of pokémon to compare and put the corresponding Twitch user to determine card winners. Additionally, card prices and details are able to be searched by either card name, card id, card subtype, card set, card series, or card rarity. 
+                  Prices are fed from TCGPlayer and buttons are provided to go directly to seller listings for each card. Viewers utilize the form on the Contact page to send their addresses and redeem the cards they won on stream. 
+                  </p>
+                  <video width="615" height="350" autoplay muted loop>
+                    <source src="media/previewMovies/chuckinaces.mkv" loading="lazy" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+              </div>
+            </div>
+
+            <div class="hiddenInfo" id="hiddenInfo3">
+              <ul>
+                <div class="builtWithContainer">
+                  <li class="builtWith"> Built with: </li>
+                  <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
+                </div>
+                <div class="popUpButtons">
+                  <li><a href="https://nightmodedictionary.netlify.app/" target="_blank"><button> View App </button></a></li>
+                  <li><a href="https://github.com/acapasso90/Dictionary" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
+                </div>
+              </ul>
+              <div class="column">
+                <button class="closeButton">Back</button>
+                <p> Multi-language night mode Dictionary with pictures. Built using React as well as both the <a href="https://dictionaryapi.dev/" target="_blank">Dictionary API</a> and <a href="https://www.pexels.com/api/documentation/" target="_blank">Pexels Api</a>, this dictionary displays synonyms as well as audio for the phonetic pronunciation of the word searched. </p>
+                <video width="615" height="350" autoplay muted loop>
+                  <source src="media/previewMovies/dictionary.mkv" loading="lazy" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+
+
+            <div class="hiddenInfo" id="hiddenInfo4">
+              <ul>
+                <div class="builtWithContainer">
+                  <li class="builtWith"> Built with: </li>
+                  <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
+                </div>
+                <div class="popUpButtons">
+                  <li><a href="https://thirsty-varahamihira-c33300.netlify.app/" target="_blank"><button> View App </button></a></li>
+                  <li><a href="https://github.com/acapasso90/react-weatherapp" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
+                </div>
+              </ul>
+              <div class="column">
+                <button class="closeButton">Back</button>
+                <p> Weather App built with React inspired by the colors the <a href="https://draculatheme.com/visual-studio-code/" target="_blank"> Dracula theme </a> on Visual Studio Code. By default the weather is displayed for Transylvania.
+                There is a button for users to get weather for their current location as well as a search bar to search locations by city name. The animated weather icons are blue when it is raining or snowing. </p>
+                <img src="media/reactweatherpreview.gif" id="previewPic" loading="lazy" class="previewPic" alt="weatherAppPreview">     
+              </div>
+            </div>
+
+            <div class="hiddenInfo" id="hiddenInfo5">
+              <ul>
+                <div class="builtWithContainer">
+                  <li class="builtWith"> Built with: </li>
+                  <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
+                </div>
+                <div class="popUpButtons">
+                  <li><a href="https://determined-lamarr-edc795.netlify.app/" target="_blank"><button> View App </button></a>  </li>
+                  <li><a href="https://github.com/acapasso90/kkslider" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
+                </div>
+              </ul>
+              <div class="column">
+                <button class="closeButton">Back</button>
+                <p> React app that plays K.K. Slider songs from Animal Crossing New Horizons. Built using React and the <a href="http://acnhapi.com/" target="_blank"> ACNH API</a>
+                There are buttons for the user to play a random song or play the next/previous song in the songlist. The background changes color or even image dependant on the song playing.
+                </p>
+                <img src="media/kkpreview.gif" id="previewPic" class="previewPic" loading="lazy" alt="kkSliderAppPreview">     
+              </div>
+            </div>
+
+            <div class="hiddenInfo" id="hiddenInfo6">
+              <ul>
+                <div class="builtWithContainer">
+                  <li class="builtWith"> Built with: </li>
+                  <li> Vanilla JavaScript <i class="fab fa-js-square" id="icon2" style="color: #DF9E28"></i> </li> 
+                </div> 
+                <div class="popUpButtons">
+                  <li><a href="https://nifty-almeida-22d8a8.netlify.app/" target="_blank"><button> View App </button></a>  </li>
+                  <li><a href="https://github.com/acapasso90/weatherapp" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
+                </div>
+              </ul>
+              <div class="column">
+                <button class="closeButton">Back</button>
+                  <p> Weather App built with Vanilla JavaScript.  There is a button for users to get weather for their current location as well as a search bar to search locations by city name.
+                  </p>
+                  <img src="media/weatherpreview.gif" id="previewPic" class="previewPic" loading="lazy" alt="weatherAppPreview">     
+              </div>
+            </div>
+
+
+<div class="blackout"></div>
+        <div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+          <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+            <li data-target="#mycarousel" data-slide-to="3"></li>
+            <li data-target="#mycarousel" data-slide-to="4"></li>
+            <li data-target="#mycarousel" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                  <img src="media/chuckinaces.jpg" class="card-img-top" alt="chuckinaces">
+                  <div class="carousel-caption  d-md-block"> 
+                      <button class="popupLinkTwo" id="popUpLink"> <h3>Pokemon Search App</h3></button>  
+                  </div>
+            </div>
+            <div class="carousel-item">
+              <img src="media/newHorizons-min.jpg"  class="card-img-top" alt="newHorizonsApp">
+              <div class="carousel-caption d-md-block">
+                  <button class="popupLink" id="popUpLink"> <h3>New Horizon's Critterpedia</h3></button>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="media/dictionary.jpg" class="card-img-top" alt="dictionaryApp">
+              <div class="carousel-caption  d-md-block"> 
+                  <button class="popupLinkThree" id="popUpLink"> <h3>Night Mode Dictionary</h3></button>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="media/reactWeather-min.jpg" class="card-img-top" alt="reactWeatherApp">
+              <div class="carousel-caption  d-md-block"> 
+                  <button class="popupLinkFour" id="popUpLink"> <h3>React Weather App</h3></button>  
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="media/kkSlider-min.jpg" class="card-img-top" alt="kkSlider">
+              <div class="carousel-caption  d-md-block"> 
+              <button class="popupLinkFive" id="popUpLink"> <h3>K.K. Slider JukeBox</h3></button>  
+            </div>
+            </div>
+            <div class="carousel-item">
+              <img src="media/weatherApp-min.jpg" class="card-img-top" alt="kkSlider"> 
+              <div class="carousel-caption d-md-block">
+                  <button class="popupLinkSix" id="popUpLink"> <h3>Weather App</h3></button>  
+            </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" data-target="#mycarousel" role="button" id="previous" data-bs-slide="prev">
+            <i class="fas fa-angle-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" data-target="#mycarousel" id="next" role="button" data-bs-slide="next">
+        <i class="fas fa-angle-right"></i>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+        </div>
+      </div>
+      <a id="about"></a>
+
+      <div class="aboutMe"> 
+        <h1 class="headers" id="aboutHeader"> 
+          About Me            
         </h1>
         <div class="row">
           <div class="col-6">
             <img src="media/aboutMe-min.jpg" loading="lazy" alt="Amanda&Wyatt" class="aboutMePhoto">
-          </div>
+          </div> 
           <div class="col-6" id="aboutMeText">
             <p> Amanda is a certified front-end developer with a previous background in E-commerce. Always challenging herself to learn new skills and techniques,
               she enjoys working on everything from desiging and building repsonsive websites for small businesses to developing interactive apps. 
@@ -74,7 +264,7 @@
       <div class="currentlyUtilizing">
         <h1  class="headers" id="utilizingHeader">Currently Utilizing</h1>
         <div class="row" id="row1">
-          <label class="hidden" id="html" style="margin-left: 19px">HTML5</label>
+          <label class="hidden" id="html" style="margin-left: 10px">HTML5</label>
           <i class="fab fa-html5" id="icon1" style="color: #E96228"></i>
           <label class="hidden" id="css"style="margin-left: 29px">CSS3</label>
           <i class="fab fa-css3-alt"  id="icon1" style="color: #146EB0"></i>
@@ -91,212 +281,12 @@
             <i class="fab fa-bootstrap" id="icon2" style="color: #533B78"></i>
             <label class="hidden" id="npm" style="margin-left: 39px">npm</label>
             <i class="fab fa-npm" id="icon3" style="color: #CE0000"></i>
-            <a id="portfolio"></a>
             <label class="hidden"  id="visualstudiocode" style="margin-left: -12px;">Visual Studio Code</label>
             <i class="devicon-visualstudio-plain" id="icon3" style="color: #613790"></i>
           </span>
         </div>
       </div>   
-        <div class="portfolio">
-          <h1 class="headers" id="portfolioHeader">Portfolio</h1>
-            <div class="projects">
-              <div class="hiddenInfo" id="hiddenInfo1">
-                <ul>
-                  <div class="builtWithContainer">
-                    <li class="builtWith"> Built with: </li>
-                    <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
-                  </div>
-                  <div class="popUpButtons">
-                    <li><a href="https://acnhcritterpedia.netlify.app/" target="_blank"><button> View App </button></a>  </li>
-                    <li><a href="https://github.com/acapasso90/newhorizonscritterpedia" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
-                  </div>
-                </ul>
-                <div class="column">
-                  <button class="closeButton">Back</button>
-                  <p>Animal Crossing New Horizon's Critterpedia built using React and the <a href="http://acnhapi.com/" target="_blank"> ACNH API</a>. By default it displays fish that are currently available in the Northern Hemisphere during the user's current month and hour.
-                    Dropdowns are available to change the time and month and there are buttons for each hemisphere. Bugs and Deep Sea creatures can be accessed by clicking the respective icons 
-                    on the top-left of the header, matching the game's UI. Each bug/fish/deep sea creature can be clicked to learn more information such as sell price, time frame and months available, and rarity. 
-                  </p>
-                  <img src="media/newhorizons/gif.gif" id="previewPic" class="previewPic" loading="lazy" alt="animalcrossingPreview"> 
-                </div>
-              </div>
-
-              <div class="hiddenInfo" id="hiddenInfo2">
-                <ul>
-                  <div class="builtWithContainer">
-                    <li class="builtWith"> Built with: </li>
-                    <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
-                  </div>
-                  <div class="popUpButtons">
-                    <li><a href="https://chuckinaces.netlify.app/" target="_blank"> <button> View App </button></a>  </li>
-                    <li><a href="https://github.com/acapasso90/chuckinaces-pokesearch" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
-                  </div>
-                </ul>
-                <div class="column">
-                  <button class="closeButton">Back</button>
-                    <p>Pokémon Card & Pokémon Stat search engine built using the <a href="https://pokeapi.co/" target="_blank">PokeApi</a> and the <a href="https://pokemontcg.io/" target="_blank"> Pokémon TCG API</a> for Twitch livestreamers <a href="https://www.twitch.tv/chuckinaces" target="_blank"> ChuckinAces </a> to 
-                    use in their Pokémon Card giveaways. The stat page displays weight and height, as well as base stats, of any Pokémon. There is a multi-pokémon stat search page where the user can input the amount of pokémon to compare and put the corresponding Twitch user to determine card winners. Additionally, card prices and details are able to be searched by either card name, card id, card subtype, card set, card series, or card rarity. 
-                    Prices are fed from TCGPlayer and buttons are provided to go directly to seller listings for each card. Viewers utilize the form on the Contact page to send their addresses and redeem the cards they won on stream. 
-                    </p>
-                    <video width="615" height="350" autoplay muted loop>
-                      <source src="media/previewMovies/chuckinaces.mkv" loading="lazy" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                </div>
-              </div>
-
-              <div class="hiddenInfo" id="hiddenInfo3">
-                <ul>
-                  <div class="builtWithContainer">
-                    <li class="builtWith"> Built with: </li>
-                    <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
-                  </div>
-                  <div class="popUpButtons">
-                    <li><a href="https://nightmodedictionary.netlify.app/" target="_blank"><button> View App </button></a></li>
-                    <li><a href="https://github.com/acapasso90/Dictionary" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
-                  </div>
-                </ul>
-                <div class="column">
-                  <button class="closeButton">Back</button>
-                  <p> Multi-language night mode Dictionary with pictures. Built using React as well as both the <a href="https://dictionaryapi.dev/" target="_blank">Dictionary API</a> and <a href="https://www.pexels.com/api/documentation/" target="_blank">Pexels Api</a>, this dictionary displays synonyms as well as audio for the phonetic pronunciation of the word searched. </p>
-                  <video width="615" height="350" autoplay muted loop>
-                    <source src="media/previewMovies/dictionary.mkv" loading="lazy" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-              </div>
-
-
-              <div class="hiddenInfo" id="hiddenInfo4">
-                <ul>
-                  <div class="builtWithContainer">
-                    <li class="builtWith"> Built with: </li>
-                    <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
-                  </div>
-                  <div class="popUpButtons">
-                    <li><a href="https://thirsty-varahamihira-c33300.netlify.app/" target="_blank"><button> View App </button></a></li>
-                    <li><a href="https://github.com/acapasso90/react-weatherapp" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
-                  </div>
-                </ul>
-                <div class="column">
-                  <button class="closeButton">Back</button>
-                  <p> Weather App built with React inspired by the colors the <a href="https://draculatheme.com/visual-studio-code/" target="_blank"> Dracula theme </a> on Visual Studio Code. By default the weather is displayed for Transylvania.
-                  There is a button for users to get weather for their current location as well as a search bar to search locations by city name. The animated weather icons are blue when it is raining or snowing. </p>
-                  <img src="media/reactweatherpreview.gif" id="previewPic" loading="lazy" class="previewPic" alt="weatherAppPreview">     
-                </div>
-              </div>
-
-              <div class="hiddenInfo" id="hiddenInfo5">
-                <ul>
-                  <div class="builtWithContainer">
-                    <li class="builtWith"> Built with: </li>
-                    <li> React <i class="fab fa-react" id="icon2" style="color: #3d90f0"></i> </li>
-                  </div>
-                  <div class="popUpButtons">
-                    <li><a href="https://determined-lamarr-edc795.netlify.app/" target="_blank"><button> View App </button></a>  </li>
-                    <li><a href="https://github.com/acapasso90/kkslider" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
-                  </div>
-                </ul>
-                <div class="column">
-                  <button class="closeButton">Back</button>
-                  <p> React app that plays K.K. Slider songs from Animal Crossing New Horizons. Built using React and the <a href="http://acnhapi.com/" target="_blank"> ACNH API</a>
-                  There are buttons for the user to play a random song or play the next/previous song in the songlist. The background changes color or even image dependant on the song playing.
-                  </p>
-                  <img src="media/kkpreview.gif" id="previewPic" class="previewPic" loading="lazy" alt="kkSliderAppPreview">     
-                </div>
-              </div>
-
-              <div class="hiddenInfo" id="hiddenInfo6">
-                <ul>
-                  <div class="builtWithContainer">
-                    <li class="builtWith"> Built with: </li>
-                    <li> Vanilla JavaScript <i class="fab fa-js-square" id="icon2" style="color: #DF9E28"></i> </li> 
-                  </div> 
-                  <div class="popUpButtons">
-                    <li><a href="https://nifty-almeida-22d8a8.netlify.app/" target="_blank"><button> View App </button></a>  </li>
-                    <li><a href="https://github.com/acapasso90/weatherapp" target="_blank"> <button> GitHub <i class="fab fa-github-square"></i> </button></a></li>
-                  </div>
-                </ul>
-                <div class="column">
-                  <button class="closeButton">Back</button>
-                    <p> Weather App built with Vanilla JavaScript.  There is a button for users to get weather for their current location as well as a search bar to search locations by city name.
-                    </p>
-                    <img src="media/weatherpreview.gif" id="previewPic" class="previewPic" loading="lazy" alt="weatherAppPreview">     
-                </div>
-              </div>
-
-
-<div class="blackout"></div>
-          <div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
-            <ol class="carousel-indicators">
-              <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#mycarousel" data-slide-to="1"></li>
-              <li data-target="#mycarousel" data-slide-to="2"></li>
-              <li data-target="#mycarousel" data-slide-to="3"></li>
-              <li data-target="#mycarousel" data-slide-to="4"></li>
-              <li data-target="#mycarousel" data-slide-to="5"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                    <img src="media/chuckinaces.jpg" class="card-img-top" alt="chuckinaces">
-                    <div class="carousel-caption  d-md-block"> 
-                      <div class="backdrop">
-                        <button class="popupLinkTwo" id="popUpLink"> <h3>Pokemon Search App</h3></button>  
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="media/newHorizons-min.jpg"  class="card-img-top" alt="newHorizonsApp">
-                <div class="carousel-caption d-md-block">
-                  <div class="backdrop">
-                    <button class="popupLink" id="popUpLink"> <h3>New Horizon's Critterpedia</h3></button>  
-              </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="media/dictionary.jpg" class="card-img-top" alt="dictionaryApp">
-                <div class="carousel-caption  d-md-block"> 
-                  <div class="backdrop">
-                    <button class="popupLinkThree" id="popUpLink"> <h3>Night Mode Dictionary</h3></button>  
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="media/reactWeather-min.jpg" class="card-img-top" alt="reactWeatherApp">
-                <div class="carousel-caption  d-md-block"> 
-                  <div class="backdrop">
-                    <button class="popupLinkFour" id="popUpLink"> <h3>React Weather App</h3></button>  
-              </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="media/kkSlider-min.jpg" class="card-img-top" alt="kkSlider">
-                <div class="carousel-caption  d-md-block"> 
-                  <div class="backdrop">
-                <button class="popupLinkFive" id="popUpLink"> <h3>K.K. Slider JukeBox</h3></button>  
-                </div>
-              </div>
-              </div>
-              <div class="carousel-item">
-                <img src="media/weatherApp-min.jpg" class="card-img-top" alt="kkSlider"> 
-                <div class="carousel-caption d-md-block">
-                  <div class="backdrop">
-                    <button class="popupLinkSix" id="popUpLink"> <h3>Weather App</h3></button>  
-                </div>
-              </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" data-target="#mycarousel" role="button" id="previous" data-bs-slide="prev">
-              <i class="fas fa-angle-left"></i>
-              <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" data-target="#mycarousel" id="next" role="button" data-bs-slide="next">
-          <i class="fas fa-angle-right"></i>
-              <span class="visually-hidden">Next</span>
-            </a>
-          </div>
-          </div>
-        </div>
+      
 
         <a id="contact"></a>
     <div class="contact">
