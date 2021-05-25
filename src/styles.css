@@ -267,8 +267,10 @@ left: 660px;
 .submitButton:hover {background-color: #ebb4cf!important;
     color: #472123!important;}
 
-.submitButton:active {margin-top: 12px;
+.submitButton:active {
+top: 57px;
     animation: footerbuttonActive .5s normal;}
+
 
 
 
