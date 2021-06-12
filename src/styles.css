@@ -580,7 +580,7 @@ height: 90vh;
 background-color: #727272;
 background-image: url('../media/popupbackground.jpg');
 background-position-y: bottom;
-box-shadow: inset -2px -2px 15px rgb(78, 70, 73);
+box-shadow: inset -2px -2px 15px rgb(19, 14, 14), 3px 3px 10px rgb(19, 14, 14);
 border: 5px solid #b87187;
 border-radius: 2px;
 color: #d3d3d3;
