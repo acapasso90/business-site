@@ -179,7 +179,7 @@ height: 1500px;
         background-color: rgb(34, 34, 34);
         z-index: 9;
         position: absolute;
-        bottom: -250px;
+        bottom: -200px;
 display: none;
 }
 
@@ -485,6 +485,7 @@ top: -5%;
 height: 100px;}
 
 .hidden{color: #746c74;
+    opacity: 0;
   font-size: 18px;}
 
 
