@@ -21,8 +21,7 @@ previous.addEventListener("click", previousSlide)
 //Sets Intersection_Observer_API margin, threshold and area 
 let options = {
     root: document.querySelector('#scrollArea'),
-    rootMargin: '0px',
-    threshold: 0.25
+    threshold: 0.2
   }
   
 const headers = document.querySelectorAll('.headers')
@@ -30,7 +29,7 @@ const headers = document.querySelectorAll('.headers')
 //Sets Intersection_Observer_API to add headerShown classlist when scrolled to
 observer = new IntersectionObserver(entries => {
 entries.forEach(entry => {
-    if (entry.intersectionRatio > 0){
+    if (entry.isIntersecting){
     entry.target.classList.add('headerShown');
     observer.unobserve(entry.target);}
     else {
